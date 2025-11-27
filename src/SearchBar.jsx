@@ -12,25 +12,44 @@ function SearchBar() {
   useEffect(() => {
     const fetchData = async () => {
       try {
-        const endpoints = [
-          { url: 'http://localhost:3000/mobiles', category: 'mobiles' },
-          { url: 'http://localhost:3000/laptops', category: 'laptops' },
-          { url: 'http://localhost:3000/accessories', category: 'accessories' },
-          { url: 'http://localhost:3000/shoes', category: 'shoes' },
-          { url: 'http://localhost:3000/mensClothings', category: 'mensClothings' },
-          { url: 'http://localhost:3000/smartGadgets', category: 'smartGadgets' },
-          { url: 'http://localhost:3000/homeAppliances', category: 'homeAppliances' },
-          { url: 'http://localhost:3000/furnitures', category: 'furnitures' }
-        ];
 
-        const responses = await Promise.all(endpoints.map(endpoint =>
-          fetch(endpoint.url)
-            .then(res => res.json())
-            .then(data => data.map(item => ({ ...item, category: endpoint.category })))
-        ));
-        const products = responses.flat();
-        setAllProducts(products);
-      } catch (error) {
+  fetch('/products.json')
+  .then(r => r.json())
+  .then(data => {
+    const combined = [
+      ...(data.mobiles || []).map(c => ({ ...c, category: 'mobiles' })),
+      ...(data.laptops || []).map(c => ({ ...c, category: 'laptops' })),
+      ...(data.accessories || []).map(c => ({ ...c, category: 'accessories' })),
+      ...(data.shoes|| []).map(c => ({ ...c, category: 'shoes' })),
+      ...(data.mensClothings || []).map(c => ({ ...c, category: 'mensClothings' })),
+      ...(data.smartGadgets || []).map(c => ({ ...c, category: 'smartGadgets' })),
+      ...(data.homeAppliances || []).map(c => ({ ...c, category: 'homeAppliances' })),
+      ...(data.furnitures || []).map(c => ({ ...c, category: 'furnitures' })),
+    ];
+    setAllProducts(combined);
+    // setLoading(false);
+  })
+        // const endpoints = [
+        //   { url: 'http://localhost:3000/mobiles', category: 'mobiles' },
+        //   { url: 'http://localhost:3000/laptops', category: 'laptops' },
+        //   { url: 'http://localhost:3000/accessories', category: 'accessories' },
+        //   { url: 'http://localhost:3000/shoes', category: 'shoes' },
+        //   { url: 'http://localhost:3000/mensClothings', category: 'mensClothings' },
+        //   { url: 'http://localhost:3000/smartGadgets', category: 'smartGadgets' },
+        //   { url: 'http://localhost:3000/homeAppliances', category: 'homeAppliances' },
+        //   { url: 'http://localhost:3000/furnitures', category: 'furnitures' }
+        // ];
+
+      //   const responses = await Promise.all(endpoints.map(endpoint =>
+      //     fetch(endpoint.url)
+      //       .then(res => res.json())
+      //       .then(data => data.map(item => ({ ...item, category: endpoint.category })))
+      //   ));
+      //   const products = responses.flat();
+      //   setAllProducts(products);
+      // } 
+}
+      catch (error) {
         console.error("Error fetching products for suggestions:", error);
       }
     };

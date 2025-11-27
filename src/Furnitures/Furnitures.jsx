@@ -8,9 +8,9 @@ export default function Furnitures() {
 
   useEffect(() =>{
 
-    fetch("http://localhost:3000/furnitures")
+    fetch("/products.json")
       .then(response => response.json())
-      .then(data => setFurnitures(data))
+      .then(data => setFurnitures(data.furnitures))
   },[])
 
   return (

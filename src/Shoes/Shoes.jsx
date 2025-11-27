@@ -6,9 +6,9 @@ function Shoes() {
 
   let [shoes, setShoes] = useState([])
 
-  fetch("http://localhost:3000/shoes")
+  fetch("/products.json")
     .then(response => response.json())
-    .then(data => setShoes(data))
+    .then(data => setShoes(data.shoes))
 
 
   return (

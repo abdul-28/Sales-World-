@@ -12,32 +12,26 @@ function SearchPage() {
         const fetchData = async () => {
             setLoading(true);
             try {
-                const endpoints = [
-                    { url: 'http://localhost:3000/mobiles', category: 'mobiles' },
-                    { url: 'http://localhost:3000/laptops', category: 'laptops' },
-                    { url: 'http://localhost:3000/accessories', category: 'accessories' },
-                    { url: 'http://localhost:3000/shoes', category: 'shoes' },
-                    { url: 'http://localhost:3000/mensClothings', category: 'mensClothings' },
-                    { url: 'http://localhost:3000/smartGadgets', category: 'smartGadgets' },
-                    { url: 'http://localhost:3000/homeAppliances', category: 'homeAppliances' },
-                    { url: 'http://localhost:3000/furnitures', category: 'furnitures' }
+                const response = await fetch('/products.json');
+                const data = await response.json();
+
+                const combined = [
+                    ...(data.mobiles || []).map(c => ({ ...c, category: 'mobiles' })),
+                    ...(data.laptops || []).map(c => ({ ...c, category: 'laptops' })),
+                    ...(data.accessories || []).map(c => ({ ...c, category: 'accessories' })),
+                    ...(data.shoes || []).map(c => ({ ...c, category: 'shoes' })),
+                    ...(data.mensClothings || []).map(c => ({ ...c, category: 'mensClothings' })),
+                    ...(data.smartGadgets || []).map(c => ({ ...c, category: 'smartGadgets' })),
+                    ...(data.homeAppliances || []).map(c => ({ ...c, category: 'homeAppliances' })),
+                    ...(data.furnitures || []).map(c => ({ ...c, category: 'furnitures' })),
                 ];
 
-                const responses = await Promise.all(endpoints.map(endpoint =>
-                    fetch(endpoint.url)
-                        .then(res => res.json())
-                        .then(data => data.map(item => ({ ...item, category: endpoint.category })))
-                ));
-                const allProducts = responses.flat();
-
-                const filtered = allProducts.filter(item => {
-                    const searchLower = query.toLowerCase();
-                    return (
-                        (item.title && item.title.toLowerCase().includes(searchLower)) ||
-                        (item.model && item.model.toLowerCase().includes(searchLower)) ||
-                        (item.category && item.category.toLowerCase().includes(searchLower))
-                    );
-                });
+                const searchLower = query.toLowerCase();
+                const filtered = combined.filter(item =>
+                    (item.title && item.title.toLowerCase().includes(searchLower)) ||
+                    (item.model && item.model.toLowerCase().includes(searchLower)) ||
+                    (item.category && item.category.toLowerCase().includes(searchLower))
+                );
 
                 setResults(filtered);
             } catch (error) {

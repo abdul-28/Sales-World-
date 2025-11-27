@@ -25,7 +25,7 @@ function LaptopCard(props) {
 
   return (
     <div id='lapCard'>
-      <Link to={props.id}>
+      <Link to={`${props.id}`}>
         <img src={props.image} alt="not found" />
       </Link>
       <h1>{props.model}</h1>

@@ -5,27 +5,27 @@ import './MensClothing.css'
 function MensClothing() {
 
   let [mensCloth, setMensCloth] = useState([]);
-  
+
   useEffect(() => {
 
-    fetch("http://localhost:3000/mensClothings")
+    fetch("/products.json")
       .then(response => response.json())
-      .then(data => setMensCloth(data))
-  },[])
+      .then(data => setMensCloth(data.mensClothings))
+  }, [])
   return (
     <div>
       <h1>Pick your favourites</h1>
       <div id='mensClothing-group'>
 
-        {mensCloth.map((clothes) =>{
+        {mensCloth.map((clothes) => {
 
-          return <MensClothingCard 
-                            key={clothes.id}
-                            id={clothes.id}
-                            image={clothes.image}
-                            model={clothes.model}
-                            price={clothes.price}
-                            category="mensClothings"/>
+          return <MensClothingCard
+            key={clothes.id}
+            id={clothes.id}
+            image={clothes.image}
+            model={clothes.model}
+            price={clothes.price}
+            category="mensClothings" />
         })}
       </div>
     </div>

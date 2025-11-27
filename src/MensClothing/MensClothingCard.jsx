@@ -24,7 +24,7 @@ function MensClothingCard(props) {
 
   return (
     <div id='clothesCard'>
-      <Link to={props.id}>
+      <Link to={`${props.id}`}>
         <img src={props.image} alt="" />
       </Link>
       <h2>{props.model}</h2>

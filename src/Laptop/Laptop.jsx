@@ -7,9 +7,9 @@ function Laptop() {
 
   let [laptop, setLaptop] = useState([])
 
-  fetch("http://localhost:3000/laptops")
+  fetch("/products.json")
     .then(response => response.json())
-    .then(data => setLaptop(data))
+    .then(data => setLaptop(data.laptops))
 
   return (
     <>

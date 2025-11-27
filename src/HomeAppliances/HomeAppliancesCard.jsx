@@ -24,13 +24,13 @@ export default function HomeAppliancesCard(props) {
 
   return (
     <div id='appliancesCard'>
-      <Link to={props.id}>
+      <Link to={`${props.id}`}>
         <img src={props.image} alt="not found" />
       </Link>
       <h1>{props.model}</h1>
       <p>{props.price}</p>
       <div className='btn'>
-        <Link to={props.id}>
+        <Link to={`${props.id}`}>
           <button className='vd'>view details</button>
         </Link>
         <button className='atc' onClick={() => addToCart()}>Add To Cart</button>

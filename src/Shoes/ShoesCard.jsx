@@ -25,7 +25,7 @@ function ShoesCard(props) {
 
   return (
     <div id='shoesCard'>
-      <Link to={props.id}>
+      <Link to={`${props.id}`}>
         <img src={props.image} alt="not found" />
       </Link>
       <h1>{props.model}</h1>

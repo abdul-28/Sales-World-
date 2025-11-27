@@ -8,11 +8,11 @@ function Home() {
 
     let [products, setProducts] = useState([]);
     useEffect(() => {
-    fetch("http://localhost:3000/data")
+    fetch("/products.json")
     .then(response => response.json())
-    .then(data => setProducts(data))
+    .then(datas => setProducts(datas.data))
 },[])
-    
+    // console.log(products)
 
   return (
     <div>

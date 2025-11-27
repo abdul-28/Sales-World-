@@ -1,19 +1,19 @@
 import React, { useEffect } from 'react'
-import './purchased.css'
+import './Purchased.css'
 import { useNavigate } from 'react-router-dom'
 
 function Purchased() {
 
   const navigate = useNavigate()
 
-  useEffect (() => {
-    const timer  = setTimeout(() =>{
+  useEffect(() => {
+    const timer = setTimeout(() => {
 
       navigate("/")
-    },3000)
+    }, 3000)
 
     return () => clearTimeout(timer)
-  },[navigate])
+  }, [navigate])
 
   return (
     <div id='last'>

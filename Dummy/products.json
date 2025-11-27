@@ -1,1394 +1,1315 @@
 {
   "data": [
-    
     {
       "id": 1,
       "title": "Mobile Phones",
-      "category" : "mobiles",
-      "image": "http://localhost:3000/assets//HomePage/img1.png"
+      "category": "mobiles",
+      "image": "../assets/HomePage/img1.png"
     },
-    
     {
       "id": 2,
       "title": "Laptops",
-      "category" : "laptops",
-      "image": "http://localhost:3000/assets//HomePage/img2.png"
+      "category": "laptops",
+      "image": "../assets/HomePage/img2.png"
     },
-    
     {
       "id": 3,
       "title": "Accessories",
-      "category" : "accessories",
-     "image": "http://localhost:3000/assets//HomePage/img3.png"
+      "category": "accessories",
+      "image": "../assets/HomePage/img3.png"
     },
-    
     {
       "id": 4,
       "title": "Shoes",
-      "category" : "shoes",
-      "image": "http://localhost:3000/assets//HomePage/img4.png"
+      "category": "shoes",
+      "image": "../assets/HomePage/img4.png"
     },
-    
     {
       "id": 5,
       "title": "Mens Clothing",
-      "category" : "mensClothings",
-      "image": "http://localhost:3000/assets//HomePage/img5.png"
+      "category": "mensClothings",
+      "image": "../assets/HomePage/img5.png"
     },
-    
     {
       "id": 6,
       "title": "Smart Gadgets",
-      "category" : "smartGadgets",
-      "image": "http://localhost:3000/assets//HomePage/img6.png"
+      "category": "smartGadgets",
+      "image": "../assets//HomePage/img6.png"
     },
-    
     {
       "id": 7,
       "title": "Home Appliances",
-      "category" : "homeAppliances",
-      "image": "http://localhost:3000/assets//HomePage/img7.webp"
+      "category": "homeAppliances",
+      "image": "../assets//HomePage/img7.webp"
     },
-    
     {
       "id": 8,
       "title": "Furnitures",
-      "category" : "furnitures",
-      "image": "http://localhost:3000/assets//HomePage/img8.png"
+      "category": "furnitures",
+      "image": "../assets//HomePage/img8.png"
     }
-],
-
-"mobiles":[
-  {    
-    "id": 1,
-    "image":"http://localhost:3000/assets/mobile1.png",
-    "model" : "Redmi 14 Pro 5G",
-    "spec" : [
-  "6.67″ curved 1.5K AMOLED display with ultra-bright 3000-nits peak.",
-  "Powered by MediaTek Dimensity 7300 Ultra with up to 12 GB RAM.",
-  "Triple rear camera: 50 MP + 8 MP ultra-wide + 2 MP macro.",
-  "5500 mAh battery with 45W fast charging for all-day use.",
-  "IP68 water & dust resistance and modern HyperOS based on Android 14."
-],
-    "price" : "14,999 INR"
-  },
-  
-  {
-    "id": 2,    
-    "image":"http://localhost:3000/assets/mobile2.jpg",
-    "model" : "Realme 12 Pro Plus 5G",
-    "spec" : [
-  "6.7″ curved OLED 120 Hz display with 100% DCI-P3 color depth.",  
-  "Powered by Snapdragon 7s Gen 2 chip with up to 12 GB RAM and 256 GB storage.",  
-  "Triple rear camera: 50 MP Sony IMX890 + 64 MP periscope + 8 MP ultra-wide.",  
-  "Dual 5G, Wi-Fi 6, and fast 67 W SuperVOOC charging for its 5000 mAh battery.",  
-  "Runs on realme UI 5.0 based on Android 14, with stereo speakers and IP65 protection."
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 3,
-    "image":"http://localhost:3000/assets/mobile3.webp",
-    "model" : "Honor X9b 5G",
-    "spec" : [
-  "6.78″ curved AMOLED display with 120Hz refresh rate for smooth viewing.",
-  "Powered by Snapdragon 6 Gen 1 with up to 12GB RAM for fast performance.",
-  "108MP triple camera setup for clear, detailed, and vibrant photos.",
-  "Massive 5800mAh battery with fast charging for long all-day backup.",
-  "Ultra-durable 360° drop protection with a sleek modern design."
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 4,
-    "image":"http://localhost:3000/assets/mobile4.png",
-    "model" : "VIVO V20 Pro",
-    "spec" : [
-  "6.44″ FHD+ AMOLED display for bright and vibrant visuals.",
-  "Powered by Snapdragon 765G 5G processor with 8GB RAM for smooth performance.",
-  "64MP triple rear camera with ultra-wide and depth lenses for versatile photography.",
-  "44MP + 8MP dual front camera for sharp and wide-angle selfies.",
-  "4000mAh battery with 33W fast charging and in-display fingerprin"
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 5,
-    "image":"http://localhost:3000/assets/mobile5.png",
-    "model" : "IQOO Z10",
-    "spec" : [
-  "6.77″ Full HD+ AMOLED display with 120 Hz refresh for smooth visuals.",  
-  "Powered by Snapdragon 7s Gen 3 with up to 12 GB RAM for fast, efficient performance.",  
-  "50 MP + 2 MP dual rear camera setup for sharp and detailed photos.",  
-  "Massive 7300 mAh battery with 90W fast charging for long-lasting use.",  
-  "Runs on Funtouch OS 15 (Android 15) with IP65 rating and robust build."
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 6,
-    "image":"http://localhost:3000/assets/mobile6.webp",
-    "model" : "Reno 12 Pro 5G",
-    "spec" : [
-  "6.7″ quad-curved AMOLED display with 120Hz refresh rate for smooth viewing.",
-  "Powered by MediaTek Dimensity 7300-Energy chipset with up to 12GB RAM.",
-  "50MP triple camera setup with ultra-wide and telephoto lenses for versatile photography.",
-  "5000mAh battery with 80W SuperVOOC fast charging for quick power boosts.",
-  "Runs on Android 14 with ColorOS 14.1 and includes IP65 splash resistance."
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 7,
-    "image":"http://localhost:3000/assets/mobile7.png",
-    "model" : "ONE PLUS 11 5G",
-    "spec" : [
-  "6.7″ QHD+ AMOLED display with 120Hz refresh rate for ultra-smooth visuals.",
-  "Powered by Snapdragon 8 Gen 2 with up to 16GB RAM for top-tier performance.",
-  "50MP + 48MP + 32MP Hasselblad camera system for stunning photography.",
-  "5000mAh battery with 100W SUPERVOOC fast charging for quick refills.",
-  "Runs on OxygenOS 13 based on Android 13 with a premium glass-metal design."
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 8,
-    "image":"http://localhost:3000/assets/mobile8.jpg",
-    "model" : "IPHONE 16",
-    "spec" : [
-  "6.1″ Super Retina XDR OLED display for sharp and vivid visuals.",
-  "Powered by the A18 chip for fast performance and efficient power use.",
-  "48MP dual-camera system with telephoto and ultra-wide lenses for versatile photography.",
-  "Customizable Action button for quick access and Apple Intelligence features.",
-  "Improved battery life and premium design available in multiple bold color options."
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 9,
-    "image":"http://localhost:3000/assets/mobile9.webp",
-    "model" : "MOTOROLA EDGE50 PRO 5G",
-    "spec" : [
-  "6.7″ 1.5K pOLED curved display with 144 Hz refresh and vivid color accuracy.",  
-  "Powered by Snapdragon 7 Gen 3 with up to 12 GB RAM for snappy performance.",  
-  "50 MP + 13 MP + 10 MP triple rear camera system with OIS for sharp photos.",  
-  "4500 mAh battery with 125 W wired charging, 50 W wireless charging, and reverse charging.",  
-  "Runs on Android 14 (Hello UI) with IP68 water resistance and a premium vegan leather finish."
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 10,
-    "image":"http://localhost:3000/assets/mobile10.webp",
-    "model" : "INFINIX GT30 PRO",
-    "spec" : [
-  "6.78″ 1.5K AMOLED display with 144 Hz refresh rate for ultra-smooth visuals.",  
-  "Powered by MediaTek Dimensity 8350 Ultimate with up to 12 GB LPDDR5X RAM for high performance.",  
-  "108 MP + 8 MP dual rear camera system and 13 MP front camera for detailed photos.",  
-  "5,500 mAh battery with 45 W wired charging, 30 W wireless charging, and reverse charging support.",  
-  "Runs on Android 15 (XOS 15) and includes IP64 dust/splash resistance and gaming shoulder buttons."
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 11,
-    "image":"http://localhost:3000/assets/mobile11.png",
-    "model" : "POCO M7 5G",
-    "spec" : [
-  "6.88″ HD+ display with 120 Hz refresh rate for smooth visuals.",
-  "Powered by Snapdragon 4 Gen 2 with up to 8 GB RAM for efficient performance.",
-  "50 MP main rear camera with a secondary sensor for sharp photos.",
-  "5160 mAh battery with 18 W wired fast charging for reliable daily use.",
-  "Runs Android 14 with HyperOS and features IP52 splash resistance."
-],
-    "price" : "14,999 INR"
-  },
-  {
-    "id": 12,
-    "image":"http://localhost:3000/assets/mobile12.webp",
-    "model" : "NOTHING 2a",
-    "spec" : [
-  "6.7″ FHD+ AMOLED display with 30-120Hz adaptive refresh for smooth visuals.",
-  "Powered by MediaTek Dimensity 7200 Pro with up to 12 GB RAM for efficient performance.",  
-  "50 MP + 50 MP dual rear camera for sharp and wide-angle shots.",  
-  "5000 mAh battery with 45W fast charging for quick top-ups.",  
-  "Runs on Android 14 via Nothing OS 2.5 and features a transparent design with Glyph lighting."  
-],
-    "price" : "14,999 INR"
-  }
-], 
-
-"laptops" : [
-  {
-    "id" : 1,
-    "image":"http://localhost:3000/assets/Laptops/laptop1.png",
-    "model" : "DELL XPs 13",
-    "spec" :  [
-  "Features a 13.4″ InfinityEdge Full HD+ or 3K OLED display for vibrant and immersive visuals.",
-  "Powered by Intel Core i5/i7 (or latest Intel Ultra) processors with up to 32GB LPDDR5x RAM.",
-  "Comes with fast NVMe SSD storage and Intel Iris Xe or Intel Arc integrated graphics.",
-  "Includes Wi-Fi 6/6E, Thunderbolt 4 ports, and a premium CNC-machined aluminum build.",
-  "Ultralight around 1.2 kg with long-lasting battery, perfect for productivity and travel."
-],
-    "price" : "59,999 INR"
-  },
-  
-  {
-    "id" : 2,
-    "image":"http://localhost:3000/assets/Laptops/laptop2.jpg",
-    "model" : "HP ELITEBOOK" ,
-    "spec" : [
-  "Features a 14″ Full HD anti-glare display for sharp and comfortable viewing.",
-  "Powered by Intel Core i5/i7 processors with up to 16–32GB RAM for efficient multitasking.",
-  "Equipped with fast NVMe SSD storage and Intel Iris Xe graphics for smooth performance.",
-  "Offers Wi-Fi 6, Thunderbolt ports, privacy shutter, and enterprise-grade security features.",
-  "Lightweight and durable design with long battery life, ideal for business and travel."
-],
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 3,
-    "image":"http://localhost:3000/assets/Laptops/laptop3.jpg",
-    "model" : "ASUS VIVOBOOK" ,
-    "spec" : ["Features a 15.6″ Full HD display with slim bezels for clear and immersive viewing.",
-  "Powered by Intel Core i5/i7 processors with 8–16GB RAM for smooth multitasking.",
-  "Comes with a 512GB NVMe SSD, fast boot times, and Intel UHD / Iris Xe graphics",
-  "Includes Wi-Fi 6, USB-C, HDMI, and a fingerprint sensor for easy connectivity and security.",
-  "Lightweight around 1.7 kg with a reliable battery, perfect for work, study, and travel."],
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 4,
-    "image":"http://localhost:3000/assets/Laptops/laptop4.jpg",
-    "model" : "LENOVO NUEVOS" ,
-    "spec" : ["Features a 15.6″ Full HD display with slim bezels for clear and immersive viewing.",
-  "Powered by Intel Core i5/i7 processors with 8–16GB RAM for smooth multitasking.",
-  "Comes with a 512GB NVMe SSD, fast boot times, and Intel UHD / Iris Xe graphics",
-  "Includes Wi-Fi 6, USB-C, HDMI, and a fingerprint sensor for easy connectivity and security.",
-  "Lightweight around 1.7 kg with a reliable battery, perfect for work, study, and travel."], 
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 5,
-    "image":"http://localhost:3000/assets/Laptops/laptop5.png",
-    "model" : "ACER ASPIRE 3" ,
-    "spec" : [
-  "Features a 15.6″ Full HD (1920×1080) LCD for ample screen space.",
-  "Powered by AMD Ryzen 5/7 or Intel Core i3/i5 processors with up to 16GB RAM.",
-  "Offers a 512GB SSD (or up to 1TB) along with integrated Radeon or Intel graphics.",
-  "Includes HDMI, USB-C, Wi-Fi 5 (or 6), and a full-size keyboard with a numeric pad.",
-  "Lightweight design around 1.9 kg with decent battery life for daily productivity."
-],
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 6,
-    "image":"http://localhost:3000/assets/Laptops/laptop6.png",
-    "model" : "MSI MUESTRA" ,
-    "spec" : [
-  "15.6″ Full HD display for clear and immersive visuals.",
-  "Powered by Intel/AMD processors for smooth everyday performance.",
-  "Equipped with fast SSD storage for quick boot times and app responsiveness.",
-  "Includes Wi-Fi, USB-C, HDMI, and other essential connectivity options.",
-  "Lightweight and modern design suitable for work, study, and travel."
-],
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 7,
-    "image":"http://localhost:3000/assets/Laptops/laptop7.png",
-    "model" : "GALAXY QLED GB" ,
-    "spec" : [
-  "Features a vibrant QLED Full HD display with rich colors and sharp clarity.",
-  "Powered by efficient Intel processors for smooth daily and multitasking performance.",
-  "Offers fast SSD storage for quick boot times and seamless app loading.",
-  "Includes Wi-Fi, USB-C, HDMI, and other modern connectivity options.",
-  "Sleek, lightweight design ideal for productivity, entertainment, and travel."
-],
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 8,
-    "image":"http://localhost:3000/assets/Laptops/laptop8.jpg",
-    "model" : "MACBOOK PRO" ,
-    "spec" : [
-  "14″ Liquid Retina XDR / 16″ XDR display with up to 1,000-nits sustained brightness.",  
-  "Powered by Apple M-series chips (M4 / M5) offering high-performance CPU and GPU cores.",  
-  "Comes with up to 128 GB unified memory and fast SSD storage (512 GB–8 TB).",  
-  "Includes MagSafe 3, three Thunderbolt 4 / USB-C ports, HDMI, SDXC card slot, and Wi-Fi 6E.",  
-  "Long-lasting battery life, sleek aluminum unibody design, and pro-grade build quality."  
-],
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 9,
-    "image":"http://localhost:3000/assets/Laptops/laptop9.png",
-    "model" : "MS SURFACE" ,
-    "spec" : [
-  "Features a 13.5″ or 15″ PixelSense touchscreen with a vibrant 3:2 aspect ratio.",  
-  "Powered by 12th Gen Intel Core i5/i7 processors for fast and efficient performance." ,  
-  "Offers up to 32 GB LPDDR5x RAM and fast SSD storage for smooth multitasking.",  
-  "Includes USB-C / Thunderbolt 4, USB-A, Surface Connect port, and Wi-Fi 6 connectivity.",  
-  "Sleek, lightweight, and premium build with all-day battery life for work or study."  
-],
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 10,
-    "image":"http://localhost:3000/assets/Laptops/laptop10.png",
-    "model" : "FUJITSU LB U904" ,
-    "spec" : [
-  "14″ WQHD+ (3200×1800) IGZO touch display for ultra-crisp visuals.",  
-  "Powered by 4th-gen Intel Core i5 or i7 (up to 3.3 GHz) for balanced performance.",  
-  "Supports up to 10 GB DDR3L RAM and offers SSD / SSHD storage options.",  
-  "Includes HDMI, 2× USB 3.0, Gigabit Ethernet, SD-card reader, and fingerprint scanner.",  
-  "Weighs around 1.38 kg with a 45 Wh battery for good portability and decent battery life."  
-],
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 11,
-    "image":"http://localhost:3000/assets/Laptops/laptop11.png",
-    "model" : "HONOR MB" ,
-    "spec" : [
-  "14″ Full HD (1920×1080) display with slim bezels for a clear and immersive viewing experience.",
-  "Powered by efficient Intel/AMD processors for smooth everyday performance.",
-  "Comes with up to 16 GB RAM and fast SSD storage for quick boot times and multitasking.",
-  "Offers Wi-Fi, USB-C, HDMI, and biometric security for modern and reliable connectivity.",
-  "Lightweight design with a long-lasting battery ideal for work, study, and travel."
-],
-    "price" : "59,999 INR"
-  },
-  {
-    "id" : 12,
-    "image":"http://localhost:3000/assets/Laptops/laptop12.png",
-    "model" : "HAUWEI" ,
-    "spec" : [
-  "14″ FullView IPS display with a 3:2 aspect ratio for a crisp and tall workspace.",  
-  "Powered by 12th-gen Intel Core i5/i7 processors for efficient and fast performance.",  
-  "Equipped with up to 16 GB LPDDR4X RAM and 512 GB NVMe SSD for smooth multitasking and storage.",  
-  "Includes Wi-Fi 6, USB-C, HDMI, and a fingerprint power button for easy and secure connectivity.",  
-  "Elegant metal build weighing around 1.33 kg, with long-lasting battery life ideal for portability."
-],
-    "price" : "59,999 INR"
-  }
-],
-
-"accessories" : [
-  {
-    "id" : 1, 
-    "image" : "http://localhost:3000/assets/Accessories/acc1.png", 
-    "model" : "Edge Perfume",
-    "spec" : [
-  "Fresh and long-lasting.",
-  "Smooth masculine fragrance.",
-  "Perfect for daily use.",
-  "Light yet refreshing scent.",
-  "Ideal for work or outings."
-],
-    "price" : "400 INR"
-  },
-  
-  {
-    "id" : 2, 
-    "image" : "http://localhost:3000/assets/Accessories/acc2.png", 
-    "model" : "Silver chain",
-    "spec" : [
-  "Shiny pure silver chain.",
-  "Strong and long-lasting.",
-  "Smooth and skin-friendly.",
-  "Secure and comfy fit.",
-  "Perfect for daily ."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 3, 
-    "image" : "http://localhost:3000/assets/Accessories/acc3.png", 
-    "model" : "Coolers Black",
-    "spec" : [
-  "Strong cooling air.",
-  "Black theme ",
-  "Energy-saving performance.",
-  "Quiet and steady operation.",
-  "Perfect for hot days."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 4, 
-    "image" : "http://localhost:3000/assets/Accessories/acc4.png", 
-    "model" : "Seiko Watch",
-    "spec" :[
-  "Classic premium design.",
-  "Accurate Japanese movement.",
-  "Strong stainless steel build.",
-  "Comfortable daily wear.",
-  "Durable and long-lasting."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 5, 
-    "image" : "http://localhost:3000/assets/Accessories/acc5.png", 
-    "model" : "Vector Keychain",
-    "spec" : [
-  "Strong and lightweight build.",
-  "Modern stylish design.",
-  "Smooth metal finish.",
-  "Durable for daily use.",
-  "Perfect for holding keys."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 6, 
-    "image" : "http://localhost:3000/assets/Accessories/acc6.jpeg", 
-    "model" : "Silver Bracelet",
-    "spec" : [
-  "Stylish modern design.",
-  "Strong durable build.",
-  "Comfortable daily wear.",
-  "Skin-friendly material.",
-  "Perfect for any outfit."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 7, 
-    "image" : "http://localhost:3000/assets/Accessories/acc7.jpeg", 
-    "model" : "Leather Belt",
-    "spec" : [
-  "Premium genuine leather.",
-  "Smooth comfortable fit.",
-  "Classic timeless style.",
-  "Perfect for daily wear."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 8, 
-    "image" : "http://localhost:3000/assets/Accessories/acc8.png", 
-    "model" : "Cooler Blue",
-    "spec" : [
-  "Strong cooling air.",
-  "Blue tone",
-  "Energy-saving performance.",
-  "Quiet and steady operation.",
-  "Perfect for hot days."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 9, 
-    "image" : "http://localhost:3000/assets/Accessories/acc9.jpg", 
-    "model" : "Cap Red",
-    "spec" :[
-  "Lightweight comfortable fit.",
-  "Dark Red Theme",
-  "Adjustable back strap.",
-  "Stylish casual design.",
-  "Perfect for sunny days."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 10, 
-    "image" : "http://localhost:3000/assets/Accessories/acc10.jpeg", 
-    "model" : "Cap Darkgreen",
-    "spec" : [
-  "Lightweight comfortable fit.",
-  "Dark Green Theme",
-  "Adjustable back strap.",
-  "Stylish casual design.",
-  "Perfect for sunny days."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 11, 
-    "image" : "http://localhost:3000/assets/Accessories/acc11.png", 
-    "model" : "Laptop Bag",
-    "spec" : [
-  "Strong durable material.",
-  "Soft padded protection.",
-  "Spacious organized pockets.",
-  "Comfortable carrying straps.",
-  "Perfect for work travel."
-],
-    "price" : "400 INR"
-  },
-  {
-    "id" : 12, 
-    "image" : "http://localhost:3000/assets/Accessories/acc12.jpg", 
-    "model" : "Men's Ankle Socks",
-    "spec" : [
-  "Soft breathable fabric.",
-  "Comfortable all-day wear.",
-  "Stretchy snug fit.",
-  "Sweat-absorbing material.",
-  "Perfect for daily use."
-],
-    "price" : "400 INR"
-  }
-], 
-
-"shoes" :[
-  {
-    "id" : 1,
-    "image" : "http://localhost:3000/assets/Shoes/shoe1.jpg",
-    "model" : "Formal shoe black",
-    "spec" : [
-  "Premium polished finish for a sharp and professional look.",
-  "Soft cushioned comfort that keeps your feet relaxed all day.",
-  "Long-lasting durable sole designed for daily office use.",
-  "Classic elegant design that pairs well with formal outfits.",
-  "Perfect for meetings, events, and everyday office wear."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 2,
-    "image" : "http://localhost:3000/assets/Shoes/shoe2.jpg",
-    "model" : "Formal shoe brown",
-    "spec" :  [
-  "Premium polished finish for a sharp and professional look.",
-  "Soft cushioned comfort that keeps your feet relaxed all day.",
-  "Long-lasting durable sole designed for daily office use.",
-  "Classic elegant design that pairs well with formal outfits.",
-  "Perfect for meetings, events, and everyday office wear."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 3,
-    "image" : "http://localhost:3000/assets/Shoes/shoe3.jpg",
-    "model" : "Formal orion",
-    "spec" :  [
-  "Premium polished finish for a sharp and professional look.",
-  "Soft cushioned comfort that keeps your feet relaxed all day.",
-  "Long-lasting durable sole designed for daily office use.",
-  "Classic elegant design that pairs well with formal outfits.",
-  "Perfect for meetings, events, and everyday office wear."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 4,
-    "image" : "http://localhost:3000/assets/Shoes/shoe4.png",
-    "model" : "Oxford brown",
-    "spec" :  [
-  "Premium polished finish for a sharp and professional look.",
-  "Soft cushioned comfort that keeps your feet relaxed all day.",
-  "Long-lasting durable sole designed for daily office use.",
-  "Classic elegant design that pairs well with formal outfits.",
-  "Perfect for meetings, events, and everyday office wear."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 5,
-    "image" : "http://localhost:3000/assets/Shoes/shoe5.jpg",
-    "model" : "Casual tealorange",
-    "spec" : [
-  "Soft breathable material for cool and comfortable daily wear.",
-  "Lightweight cushioned sole that supports long walks effortlessly.",
-  "Flexible design that adapts naturally to your foot movement.",
-  "Trendy casual look that suits jeans, shorts, and everyday outfits.",
-  "Perfect for outings, travel, and relaxed all-day comfort."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 6,
-    "image" : "http://localhost:3000/assets/Shoes/shoe6.jpg",
-    "model" : "Casual grey",
-    "spec" : [
-  "Soft breathable material for cool and comfortable daily wear.",
-  "Lightweight cushioned sole that supports long walks effortlessly.",
-  "Flexible design that adapts naturally to your foot movement.",
-  "Trendy casual look that suits jeans, shorts, and everyday outfits.",
-  "Perfect for outings, travel, and relaxed all-day comfort."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 7,
-    "image" : "http://localhost:3000/assets/Shoes/shoe7.jpg",
-    "model" : "Nike white sneak",
-    "spec" : [
-  "Clean white design for a fresh and stylish everyday look.",
-  "Soft cushioned insole that keeps your feet comfy all day.",
-  "Lightweight flexible sole for smooth and easy walking.",
-  "Breathable upper material that stays cool and comfortable.",
-  "Perfect for casual wear, travel, and modern street style."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 8,
-    "image" : "http://localhost:3000/assets/Shoes/shoe8.jpg",
-    "model" : "New Balance sneak",
-    "spec" : [
-  "Clean white design for a fresh and stylish everyday look.",
-  "Soft cushioned insole that keeps your feet comfy all day.",
-  "Lightweight flexible sole for smooth and easy walking.",
-  "Breathable upper material that stays cool and comfortable.",
-  "Perfect for casual wear, travel, and modern street style."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 9,
-    "image" : "http://localhost:3000/assets/Shoes/shoe9.jpg",
-    "model" : "Casual white sneak",
-    "spec" : [
-  "Clean white design for a fresh and stylish everyday look.",
-  "Soft cushioned insole that keeps your feet comfy all day.",
-  "Lightweight flexible sole for smooth and easy walking.",
-  "Breathable upper material that stays cool and comfortable.",
-  "Perfect for casual wear, travel, and modern street style."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 10,
-    "image" : "http://localhost:3000/assets/Shoes/shoe10.png",
-    "model" : "Sport shoe blue",
-    "spec" : [
-  "Breathable mesh design for cool and active performance.",
-  "Soft cushioned sole that absorbs impact during running.",
-  "Lightweight build for fast, smooth, and flexible movement.",
-  "Durable grip outsole for stability on various surfaces.",
-  "Perfect for workouts, jogging, and everyday sporty comfort."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 11,
-    "image" : "http://localhost:3000/assets/Shoes/shoe11.jpg",
-    "model" : "Athletic footwear",
-    "spec" : [
-  "Breathable upper material for cool and comfortable movement.",
-  "High-energy cushioning that supports intense athletic activity.",
-  "Lightweight flexible sole for smooth and responsive steps.",
-  "Strong traction grip for stability on all training surfaces.",
-  "Perfect for running, workouts, and everyday active wear."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 12,
-    "image" : "http://localhost:3000/assets/Shoes/shoe12.png",
-    "model" : "Sport shoe black",
-    "spec" : [
-  "Breathable mesh design for cool and active performance.",
-  "Soft cushioned sole that absorbs impact during running.",
-  "Lightweight build for fast, smooth, and flexible movement.",
-  "Durable grip outsole for stability on various surfaces.",
-  "Perfect for workouts, jogging, and everyday sporty comfort."
-],
-    "price" : "799 INR"
-  }
-
-],
-
-"mensClothings" : [
-  
-  {
-    "id" : 1,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes2.jpg",
-    "model" : "Mens formal(Green)",
-    "spec" : [
-  "Soft premium fabric for smooth and professional all-day comfort.",
-  "Breathable material that keeps you cool during office hours.",
-  "Tailored fit design for a clean and polished appearance.",
-  "Classic formal style that pairs perfectly with trousers and blazers.",
-  "Ideal for office wear, meetings, and formal occasions."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 2,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes1.png",
-    "model" : "T-shirt (Green)",
-    "spec" : [
-  "Soft cotton fabric for smooth and comfortable everyday wear.",
-  "Breathable material that keeps you cool throughout the day.",
-  "Stretchy relaxed fit for easy and flexible movement.",
-  "Classic black design that pairs well with any outfit.",
-  "Perfect for casual use, outings, and daily comfort."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 3,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes3.jpg",
-    "model" : "Sweaters (Green)",
-    "spec" : [
-  "Soft warm fabric for cozy and comfortable everyday wear.",
-  "Breathable material that keeps you comfortable in any weather.",
-  "Relaxed fit design for easy movement and all-day comfort.",
-  "Stylish hooded look that pairs well with casual outfits.",
-  "Perfect for travel, outings, and cool-weather layering."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 4,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes4.jpg",
-    "model" : "Mens formal (Blue)",
-    "spec" : [
-  "Soft premium fabric for smooth and professional all-day comfort.",
-  "Breathable material that keeps you cool during office hours.",
-  "Tailored fit design for a clean and polished appearance.",
-  "Classic formal style that pairs perfectly with trousers and blazers.",
-  "Ideal for office wear, meetings, and formal occasions."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 5,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes5.jpg",
-    "model" : "T-shirt (Blue)",
-    "spec" : [
-  "Soft cotton fabric for smooth and comfortable everyday wear.",
-  "Breathable material that keeps you cool throughout the day.",
-  "Stretchy relaxed fit for easy and flexible movement.",
-  "Classic black design that pairs well with any outfit.",
-  "Perfect for casual use, outings, and daily comfort."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 6,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes6.jpg",
-    "model" : "Sweaters (Blue)",
-    "spec" : [
-  "Soft warm fabric for cozy and comfortable everyday wear.",
-  "Breathable material that keeps you comfortable in any weather.",
-  "Relaxed fit design for easy movement and all-day comfort.",
-  "Stylish hooded look that pairs well with casual outfits.",
-  "Perfect for travel, outings, and cool-weather layering."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 7,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes7.jpg",
-    "model" : "Formal (black strips)",
-    "spec" : [
-  "Soft premium fabric for smooth and professional all-day comfort.",
-  "Breathable material that keeps you cool during office hours.",
-  "Tailored fit design for a clean and polished appearance.",
-  "Classic formal style that pairs perfectly with trousers and blazers.",
-  "Ideal for office wear, meetings, and formal occasions."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 8,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes8.png",
-    "model" : "T-shirt(Black)",
-    "spec" : [
-  "Soft cotton fabric for smooth and comfortable everyday wear.",
-  "Breathable material that keeps you cool throughout the day.",
-  "Stretchy relaxed fit for easy and flexible movement.",
-  "Classic black design that pairs well with any outfit.",
-  "Perfect for casual use, outings, and daily comfort."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 9,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes9.png",
-    "model" : "Sweaters (Black)",
-    "spec" : [
-  "Soft warm fabric for cozy and comfortable everyday wear.",
-  "Breathable material that keeps you comfortable in any weather.",
-  "Relaxed fit design for easy movement and all-day comfort.",
-  "Stylish hooded look that pairs well with casual outfits.",
-  "Perfect for travel, outings, and cool-weather layering."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 10,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes10.jpeg",
-    "model" : "Formal (white strips)",
-    "spec" : [
-  "Soft premium fabric for smooth and professional all-day comfort.",
-  "Breathable material that keeps you cool during office hours.",
-  "Tailored fit design for a clean and polished appearance.",
-  "Classic formal style that pairs perfectly with trousers and blazers.",
-  "Ideal for office wear, meetings, and formal occasions."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 11,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes11.png",
-    "model" : "T-shirt (White)",
-    "spec" : [
-  "Soft cotton fabric for smooth and comfortable everyday wear.",
-  "Breathable material that keeps you cool throughout the day.",
-  "Stretchy relaxed fit for easy and flexible movement.",
-  "Classic black design that pairs well with any outfit.",
-  "Perfect for casual use, outings, and daily comfort."
-],
-    "price" : "799 INR"
-  },
-  
-  {
-    "id" : 12,
-    "image" : "http://localhost:3000/assets/MensClothings/clothes12.png",
-    "model" : "Sweaters (Black/White)",
-    "spec" : [
-  "Soft warm fabric for cozy and comfortable everyday wear.",
-  "Breathable material that keeps you comfortable in any weather.",
-  "Relaxed fit design for easy movement and all-day comfort.",
-  "Stylish hooded look that pairs well with casual outfits.",
-  "Perfect for travel, outings, and cool-weather layering."
-],
-    "price" : "799 INR"
-  }
-
-],
-
-"smartGadgets" : [
-  
-  {
-    "id" : 1,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets1.png",
-    "model" : "Smart watch boltt",
-    "spec" : [
-  "Bright clear display for easy viewing throughout the day.",
-  "Tracks steps, heart rate, and daily fitness activities smoothly.",
-  "Lightweight comfortable design suitable for all-day wear.",
-  "Includes notifications, alarms, and smart connectivity features.",
-  "Perfect for fitness tracking, daily use, and modern lifestyle."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 2,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets2.jpg",
-    "model" : "Boat airpods 161",
-    "spec" : [
-  "Clear rich sound for smooth music and calls.",
-  "Comfortable lightweight fit for all-day listening.",
-  "Quick Bluetooth pairing for hassle-free connection.",
-  "Long battery life with a compact charging case.",
-  "Perfect for travel, workouts, and daily use."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 3,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets3.jpg",
-    "model" : "Mivi airpods",
-    "spec" : [
-  "Clear rich sound for smooth music and calls.",
-  "Comfortable lightweight fit for all-day listening.",
-  "Quick Bluetooth pairing for hassle-free connection.",
-  "Long battery life with a compact charging case.",
-  "Perfect for travel, workouts, and daily use."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 4,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets4.png",
-    "model" : "Smart watch sony",
-    "spec" : [
-  "Bright clear display for easy viewing throughout the day.",
-  "Tracks steps, heart rate, and daily fitness activities smoothly.",
-  "Lightweight comfortable design suitable for all-day wear.",
-  "Includes notifications, alarms, and smart connectivity features.",
-  "Perfect for fitness tracking, daily use, and modern lifestyle."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 5,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets5.png",
-    "model" : "JBL speakers white",
-    "spec" :[
-  "Powerful clear sound for rich music experience.",
-  "Deep punchy bass that fills any room easily.",
-  "Portable lightweight design for easy carrying.",
-  "Long battery life for nonstop music playback.",
-  "Perfect for parties, travel, and outdoor fun."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 6,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets6.png",
-    "model" : "JBL speakers black",
-    "spec" : [
-  "Powerful clear sound for rich music experience.",
-  "Deep punchy bass that fills any room easily.",
-  "Portable lightweight design for easy carrying.",
-  "Long battery life for nonstop music playback.",
-  "Perfect for parties, travel, and outdoor fun."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 7,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets7.jpg",
-    "model" : "Noise headphones",
-    "spec" : [
-  "Clear crisp audio for immersive listening.",
-  "Soft cushioned ear pads for all-day comfort.",
-  "Adjustable headband for a perfect fit.",
-  "Strong build quality for long-lasting use.",
-  "Ideal for music, gaming, and daily travel."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 8,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets8.jpg",
-    "model" : "Bose headphones",
-    "spec" : [
-  "Clear crisp audio for immersive listening.",
-  "Soft cushioned ear pads for all-day comfort.",
-  "Adjustable headband for a perfect fit.",
-  "Strong build quality for long-lasting use.",
-  "Ideal for music, gaming, and daily travel."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 9,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets9.jpg",
-    "model" : "Anker powerbank",
-    "spec" : [
-  "High-capacity battery for reliable full-day charging.",
-  "Fast charging output for quick power on the go.",
-  "Compact lightweight design that fits easily in pockets.",
-  "Durable build with multiple USB/Type-C ports.",
-  "Perfect for travel, work, and everyday backup power."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 10,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets10.jpg",
-    "model" : "Realme powerbank",
-    "spec" : [
-  "High-capacity battery for reliable full-day charging.",
-  "Fast charging output for quick power on the go.",
-  "Compact lightweight design that fits easily in pockets.",
-  "Durable build with multiple USB/Type-C ports.",
-  "Perfect for travel, work, and everyday backup power."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 11,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets11.jpg",
-    "model" : "Smart table lamp",
-    "spec" : [
-  "Soft adjustable lighting for a cozy room mood.",
-  "Smart touch control for easy brightness changes.",
-  "Energy-efficient LED that lasts longer and saves power.",
-  "Multiple color modes for study, relaxation, or ambience.",
-  "Perfect for bedrooms, desks, and modern home setups."
-],
-    "price" : "799 INR"
-  },
-
-  {
-    "id" : 12,
-    "image" : "http://localhost:3000/assets/SmartGadgets/gadgets12.jpg",
-    "model" : "Smart table lamp",
-    "spec" : [
-  "Soft adjustable lighting for a cozy room mood.",
-  "Smart touch control for easy brightness changes.",
-  "Energy-efficient LED that lasts longer and saves power.",
-  "Multiple color modes for study, relaxation, or ambience.",
-  "Perfect for bedrooms, desks, and modern home setups."
-],
-    "price" : "799 INR"
-  }
-],
-
-"homeAppliances" : [
-  
-  {
-    "id" : 1,
-    "image" : "http://localhost:3000/assets/Appliances/appliance1.png",
-    "model" : "Induction cooktop",
-    "spec" :[
-  "Smooth glass-ceramic surface for easy cleaning and modern look.",
-  "Fast heating with precise control through smart touch settings.",
-  "Auto shut-off and overheat protection for safe cooking use.",
-  "Compact and sleek design ideal for small kitchens or countertops.",
-  "Energy-efficient cooking with quick heat-up and even power distribution."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 2,
-    "image" : "http://localhost:3000/assets/Appliances/appliance2.png",
-    "model" : "Induction cooktop",
-    "spec" : [
-  "Smooth glass-ceramic surface for easy cleaning and modern look.",
-  "Fast heating with precise control through smart touch settings.",
-  "Auto shut-off and overheat protection for safe cooking use.",
-  "Compact and sleek design ideal for small kitchens or countertops.",
-  "Energy-efficient cooking with quick heat-up and even power distribution."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 3,
-    "image" : "http://localhost:3000/assets/Appliances/appliance3.png",
-    "model" : "Refrigerator",
-    "spec" : [
-  "Spacious multi-door design for organized food storage.",
-  "Energy-efficient compressor for reliable and eco-friendly cooling.",
-  "Frost-free technology to reduce ice buildup and simplify cleaning.",
-  "Adjustable shelves and door bins for flexible storage options.",
-  "Quiet operation with fast cooling and humidity control for freshness."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 4,
-    "image" : "http://localhost:3000/assets/Appliances/appliance4.png",
-    "model" : "Refrigerator",
-    "spec" : [
-  "Spacious multi-door design for organized food storage.",
-  "Energy-efficient compressor for reliable and eco-friendly cooling.",
-  "Frost-free technology to reduce ice buildup and simplify cleaning.",
-  "Adjustable shelves and door bins for flexible storage options.",
-  "Quiet operation with fast cooling and humidity control for freshness."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 5,
-    "image" : "http://localhost:3000/assets/Appliances/appliance5.png",
-    "model" : "Microwave oven",
-    "spec" : [
-  "Spacious cavity with turntable for even cooking and reheating.",
-  "Multiple power levels and presets for flexible cooking options.",
-  "Compact and sleek design that fits easily on kitchen countertops.",
-  "Smart child-lock and auto shut-off for safe and worry-free use.",
-  "Easy-clean interior and durable glass door for long-lasting performance."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 6,
-    "image" : "http://localhost:3000/assets/Appliances/appliance6.png",
-    "model" : "Microwave oven",
-    "spec" : [
-  "Spacious cavity with turntable for even cooking and reheating.",
-  "Multiple power levels and presets for flexible cooking options.",
-  "Compact and sleek design that fits easily on kitchen countertops.",
-  "Smart child-lock and auto shut-off for safe and worry-free use.",
-  "Easy-clean interior and durable glass door for long-lasting performance."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 7,
-    "image" : "http://localhost:3000/assets/Appliances/appliance7.png",
-    "model" : "Blender",
-    "spec" : [
-  "High-speed motor for smooth blending and pureeing.",
-  "Durable stainless-steel blades for efficient chopping.",
-  "Large capacity jar for making smoothies, soups, and more.",
-  "Compact and easy-to-clean design with detachable parts.",
-  "Multiple speed settings for precise control over consistency."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 8,
-    "image" : "http://localhost:3000/assets/Appliances/appliance8.png",
-    "model" : "Electric kettle",
-    "spec" : [
-  "Fast-boiling heating element for quick hot water.",
-  "Stainless-steel interior for safe and clean boiling.",
-  "Auto shut-off and boil-dry protection for safety.",
-  "Ergonomic handle and spout for easy pouring.",
-  "Compact and durable design, perfect for daily use."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 9,
-    "image" : "http://localhost:3000/assets/Appliances/appliance9.png",
-    "model" : "Water Purifier",
-    "spec" :[
-  "Advanced multi-stage filtration system for clean and safe drinking water.",
-  "Removes impurities, bacteria, and heavy metals for healthier hydration.",
-  "Includes RO/UV/UF technology depending on the model for deep purification.",
-  "Smart indicators for filter change, tank level, and real-time alerts.",
-  "Sleek, wall-mountable design suitable for modern kitchens."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 10,
-    "image" : "http://localhost:3000/assets/Appliances/appliance10.png",
-    "model" : "Water Purifier",
-    "spec" : [
-  "Advanced multi-stage filtration system for clean and safe drinking water.",
-  "Removes impurities, bacteria, and heavy metals for healthier hydration.",
-  "Includes RO/UV/UF technology depending on the model for deep purification.",
-  "Smart indicators for filter change, tank level, and real-time alerts.",
-  "Sleek, wall-mountable design suitable for modern kitchens."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 11,
-    "image" : "http://localhost:3000/assets/Appliances/appliance11.jpg",
-    "model" : "Waste bin",
-    "spec" : [
-  "Durable and lightweight body designed for daily household use.",
-  "Comes with a smooth push-lid or pedal mechanism for hands-free operation.",
-  "Spacious inner capacity to easily hold kitchen or room waste.",
-  "Made with easy-to-clean materials to maintain hygiene effortlessly.",
-  "Simple, modern design that fits well in any home or office space."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 12,
-    "image" : "http://localhost:3000/assets/Appliances/appliance12.jpg",
-    "model" : "Sensor dustbin",
-    "spec" :[
-  "Touch-free sensor lid that opens automatically for hygienic waste disposal.",
-  "High-sensitivity motion detection for smooth and quick lid response.",
-  "Large storage capacity suitable for kitchens, offices, and bedrooms.",
-  "Durable and easy-to-clean body with anti-odor design for freshness.",
-  "Energy-efficient operation with long battery life for daily convenience."
-],
-    "price" : "39,999 INR"
-  }
-
-],
-
-"furnitures" : [
-  
-  {
-    "id" : 1,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture1.png",
-    "model" : "Recline Sofa (1)",
-    "spec" : [
-  "Single-seater recliner designed for personal comfort and relaxation.",
-  "Soft cushioned seating with ergonomic back support for long sitting hours.",
-  "Smooth manual or motorized reclining mechanism for effortless use.",
-  "Premium upholstery options like leather or fabric for a classy look.",
-  "Compact design ideal for living rooms, bedrooms, and entertainment corners."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 2,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture2.png",
-    "model" : "Recline Sofa (2)",
-    "spec" : [
-  "Two-seater recliner perfect for couples or shared seating comfort.",
-  "Plush cushions with lumbar support for a cozy and relaxed sitting experience.",
-  "Dual reclining function that allows each person to recline independently.",
-  "Durable frame and soft-touch upholstery for long-lasting comfort.",
-  "Ideal for movie nights, small living rooms, or compact home theaters."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 3,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture3.png",
-    "model" : "Recline Sofa (3)",
-    "spec" : [
-  "Spacious three-seater recliner designed for family seating comfort.",
-  "Deep cushioned seats with high back support for full-body relaxation.",
-  "Manual or motorized reclining with center storage console options.",
-  "Strong build quality with premium leather/fabric for a luxurious finish.",
-  "Perfect for home theaters, large living rooms, and entertainment spaces."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 4,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture4.png",
-    "model" : "Round table",
-    "spec" : [
-  "Stylish round table designed for compact and modern spaces.",
-  "Made with sturdy wood/metal construction for long-lasting durability.",
-  "Smooth circular tabletop ideal for dining, décor, or casual use.",
-  "Lightweight and easy to move, fitting well in living rooms or balconies.",
-  "Elegant finish that adds a clean and classy touch to any interior."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 5,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture5.png",
-    "model" : "Round table",
-    "spec" : [
-  "Stylish round table designed for compact and modern spaces.",
-  "Made with sturdy wood/metal construction for long-lasting durability.",
-  "Smooth circular tabletop ideal for dining, décor, or casual use.",
-  "Lightweight and easy to move, fitting well in living rooms or balconies.",
-  "Elegant finish that adds a clean and classy touch to any interior."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 6,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture6.jpg",
-    "model" : "Wardrobe",
-    "spec" : [
-  "Spacious wardrobe designed to neatly organize clothes and essentials.",
-  "Built with strong and durable materials for long-term everyday use.",
-  "Includes shelves, hanging space, and drawers for easy storage.",
-  "Smooth-opening doors with sturdy handles for comfortable access.",
-  "Modern design that fits perfectly into any bedroom interior."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 7,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture7.jpg",
-    "model" : "Sliding wardrobe",
-    "spec" : [
-  "Space-saving sliding doors that move smoothly without blocking room space.",
-  "Made with durable panels and strong rails for long-lasting performance.",
-  "Offers ample shelves, hangers, and compartments for organized storage.",
-  "Sleek, modern look that enhances the style of your bedroom.",
-  "Perfect for compact rooms where traditional doors take up extra space."
-]
-,
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 8,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture8.jpg",
-    "model" : "Wall shelves",
-    "spec" : [
-  "Stylish wall shelves designed to display décor, books, and small accessories.",
-  "Made from sturdy wood/metal materials for strong support and durability.",
-  "Space-saving design that enhances room aesthetics without occupying floor area.",
-  "Easy to install with secure mounting hardware for a stable setup.",
-  "Perfect for living rooms, bedrooms, or offices to add a modern decorative touch."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 9,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture9.png",
-    "model" : "Wall shelves",
-    "spec" : [
-  "Stylish wall shelves designed to display décor, books, and small accessories.",
-  "Made from sturdy wood/metal materials for strong support and durability.",
-  "Space-saving design that enhances room aesthetics without occupying floor area.",
-  "Easy to install with secure mounting hardware for a stable setup.",
-  "Perfect for living rooms, bedrooms, or offices to add a modern decorative touch."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 10,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture10.png",
-    "model" : "Wall shelves",
-    "spec" : [
-  "Stylish wall shelves designed to display décor, books, and small accessories.",
-  "Made from sturdy wood/metal materials for strong support and durability.",
-  "Space-saving design that enhances room aesthetics without occupying floor area.",
-  "Easy to install with secure mounting hardware for a stable setup.",
-  "Perfect for living rooms, bedrooms, or offices to add a modern decorative touch."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 11,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture11.png",
-    "model" : "Wooden chair",
-    "spec" : [
-  "Classic wooden chair crafted from strong and durable solid wood.",
-  "Ergonomic backrest design for comfortable daily seating support.",
-  "Smooth polished finish that adds a natural and elegant look.",
-  "Stable structure with sturdy legs for long-lasting reliability.",
-  "Perfect for dining rooms, study areas, or office spaces."
-],
-    "price" : "39,999 INR"
-  },
-  
-  {
-    "id" : 12,
-    "image" : "http://localhost:3000/assets/Furnitures/furniture12.png",
-    "model" : "Chair (cushion)",
-    "spec" : [
-  "Soft cushioned chair with plush padding for enhanced sitting comfort.",
-  "Sturdy wooden/metal frame offering strong support and durability.",
-  "Upholstered seat and backrest for a cozy and stylish appearance.",
-  "Lightweight and easy to move, fitting well in any room setup.",
-  "Ideal for living rooms, study areas, or relaxation corners."
-],
-    "price" : "39,999 INR"
-  }
-
-]
+  ],
+  "mobiles": [
+    {
+      "id": 1,
+      "image": "../assets/mobile1.png",
+      "model": "Redmi 14 Pro 5G",
+      "spec": [
+        "6.67″ curved 1.5K AMOLED display with ultra-bright 3000-nits peak.",
+        "Powered by MediaTek Dimensity 7300 Ultra with up to 12 GB RAM.",
+        "Triple rear camera: 50 MP + 8 MP ultra-wide + 2 MP macro.",
+        "5500 mAh battery with 45W fast charging for all-day use.",
+        "IP68 water & dust resistance and modern HyperOS based on Android 14."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 2,
+      "image": "../assets/mobile2.jpg",
+      "model": "Realme 12 Pro Plus 5G",
+      "spec": [
+        "6.7″ curved OLED 120 Hz display with 100% DCI-P3 color depth.",
+        "Powered by Snapdragon 7s Gen 2 chip with up to 12 GB RAM and 256 GB storage.",
+        "Triple rear camera: 50 MP Sony IMX890 + 64 MP periscope + 8 MP ultra-wide.",
+        "Dual 5G, Wi-Fi 6, and fast 67 W SuperVOOC charging for its 5000 mAh battery.",
+        "Runs on realme UI 5.0 based on Android 14, with stereo speakers and IP65 protection."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 3,
+      "image": "../assets/mobile3.webp",
+      "model": "Honor X9b 5G",
+      "spec": [
+        "6.78″ curved AMOLED display with 120Hz refresh rate for smooth viewing.",
+        "Powered by Snapdragon 6 Gen 1 with up to 12GB RAM for fast performance.",
+        "108MP triple camera setup for clear, detailed, and vibrant photos.",
+        "Massive 5800mAh battery with fast charging for long all-day backup.",
+        "Ultra-durable 360° drop protection with a sleek modern design."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 4,
+      "image": "../assets/mobile4.png",
+      "model": "VIVO V20 Pro",
+      "spec": [
+        "6.44″ FHD+ AMOLED display for bright and vibrant visuals.",
+        "Powered by Snapdragon 765G 5G processor with 8GB RAM for smooth performance.",
+        "64MP triple rear camera with ultra-wide and depth lenses for versatile photography.",
+        "44MP + 8MP dual front camera for sharp and wide-angle selfies.",
+        "4000mAh battery with 33W fast charging and in-display fingerprin"
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 5,
+      "image": "../assets/mobile5.png",
+      "model": "IQOO Z10",
+      "spec": [
+        "6.77″ Full HD+ AMOLED display with 120 Hz refresh for smooth visuals.",
+        "Powered by Snapdragon 7s Gen 3 with up to 12 GB RAM for fast, efficient performance.",
+        "50 MP + 2 MP dual rear camera setup for sharp and detailed photos.",
+        "Massive 7300 mAh battery with 90W fast charging for long-lasting use.",
+        "Runs on Funtouch OS 15 (Android 15) with IP65 rating and robust build."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 6,
+      "image": "../assets/mobile6.webp",
+      "model": "Reno 12 Pro 5G",
+      "spec": [
+        "6.7″ quad-curved AMOLED display with 120Hz refresh rate for smooth viewing.",
+        "Powered by MediaTek Dimensity 7300-Energy chipset with up to 12GB RAM.",
+        "50MP triple camera setup with ultra-wide and telephoto lenses for versatile photography.",
+        "5000mAh battery with 80W SuperVOOC fast charging for quick power boosts.",
+        "Runs on Android 14 with ColorOS 14.1 and includes IP65 splash resistance."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 7,
+      "image": "../assets/mobile7.png",
+      "model": "ONE PLUS 11 5G",
+      "spec": [
+        "6.7″ QHD+ AMOLED display with 120Hz refresh rate for ultra-smooth visuals.",
+        "Powered by Snapdragon 8 Gen 2 with up to 16GB RAM for top-tier performance.",
+        "50MP + 48MP + 32MP Hasselblad camera system for stunning photography.",
+        "5000mAh battery with 100W SUPERVOOC fast charging for quick refills.",
+        "Runs on OxygenOS 13 based on Android 13 with a premium glass-metal design."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 8,
+      "image": "../assets/mobile8.jpg",
+      "model": "IPHONE 16",
+      "spec": [
+        "6.1″ Super Retina XDR OLED display for sharp and vivid visuals.",
+        "Powered by the A18 chip for fast performance and efficient power use.",
+        "48MP dual-camera system with telephoto and ultra-wide lenses for versatile photography.",
+        "Customizable Action button for quick access and Apple Intelligence features.",
+        "Improved battery life and premium design available in multiple bold color options."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 9,
+      "image": "../assets/mobile9.webp",
+      "model": "MOTOROLA EDGE50 PRO 5G",
+      "spec": [
+        "6.7″ 1.5K pOLED curved display with 144 Hz refresh and vivid color accuracy.",
+        "Powered by Snapdragon 7 Gen 3 with up to 12 GB RAM for snappy performance.",
+        "50 MP + 13 MP + 10 MP triple rear camera system with OIS for sharp photos.",
+        "4500 mAh battery with 125 W wired charging, 50 W wireless charging, and reverse charging.",
+        "Runs on Android 14 (Hello UI) with IP68 water resistance and a premium vegan leather finish."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 10,
+      "image": "../assets/mobile10.webp",
+      "model": "INFINIX GT30 PRO",
+      "spec": [
+        "6.78″ 1.5K AMOLED display with 144 Hz refresh rate for ultra-smooth visuals.",
+        "Powered by MediaTek Dimensity 8350 Ultimate with up to 12 GB LPDDR5X RAM for high performance.",
+        "108 MP + 8 MP dual rear camera system and 13 MP front camera for detailed photos.",
+        "5,500 mAh battery with 45 W wired charging, 30 W wireless charging, and reverse charging support.",
+        "Runs on Android 15 (XOS 15) and includes IP64 dust/splash resistance and gaming shoulder buttons."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 11,
+      "image": "../assets/mobile11.png",
+      "model": "POCO M7 5G",
+      "spec": [
+        "6.88″ HD+ display with 120 Hz refresh rate for smooth visuals.",
+        "Powered by Snapdragon 4 Gen 2 with up to 8 GB RAM for efficient performance.",
+        "50 MP main rear camera with a secondary sensor for sharp photos.",
+        "5160 mAh battery with 18 W wired fast charging for reliable daily use.",
+        "Runs Android 14 with HyperOS and features IP52 splash resistance."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 12,
+      "image": "../assets/mobile12.webp",
+      "model": "NOTHING 2a",
+      "spec": [
+        "6.7″ FHD+ AMOLED display with 30-120Hz adaptive refresh for smooth visuals.",
+        "Powered by MediaTek Dimensity 7200 Pro with up to 12 GB RAM for efficient performance.",
+        "50 MP + 50 MP dual rear camera for sharp and wide-angle shots.",
+        "5000 mAh battery with 45W fast charging for quick top-ups.",
+        "Runs on Android 14 via Nothing OS 2.5 and features a transparent design with Glyph lighting."
+      ],
+      "price": "14,999 INR"
+    }
+  ],
+  "laptops": [
+    {
+      "id": 1,
+      "image": "../assets/Laptops/laptop1.png",
+      "model": "DELL XPs 13",
+      "spec": [
+        "Features a 13.4″ InfinityEdge Full HD+ or 3K OLED display for vibrant and immersive visuals.",
+        "Powered by Intel Core i5/i7 (or latest Intel Ultra) processors with up to 32GB LPDDR5x RAM.",
+        "Comes with fast NVMe SSD storage and Intel Iris Xe or Intel Arc integrated graphics.",
+        "Includes Wi-Fi 6/6E, Thunderbolt 4 ports, and a premium CNC-machined aluminum build.",
+        "Ultralight around 1.2 kg with long-lasting battery, perfect for productivity and travel."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 2,
+      "image": "../assets/Laptops/laptop2.jpg",
+      "model": "HP ELITEBOOK",
+      "spec": [
+        "Features a 14″ Full HD anti-glare display for sharp and comfortable viewing.",
+        "Powered by Intel Core i5/i7 processors with up to 16–32GB RAM for efficient multitasking.",
+        "Equipped with fast NVMe SSD storage and Intel Iris Xe graphics for smooth performance.",
+        "Offers Wi-Fi 6, Thunderbolt ports, privacy shutter, and enterprise-grade security features.",
+        "Lightweight and durable design with long battery life, ideal for business and travel."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 3,
+      "image": "../assets/Laptops/laptop3.jpg",
+      "model": "ASUS VIVOBOOK",
+      "spec": [
+        "Features a 15.6″ Full HD display with slim bezels for clear and immersive viewing.",
+        "Powered by Intel Core i5/i7 processors with 8–16GB RAM for smooth multitasking.",
+        "Comes with a 512GB NVMe SSD, fast boot times, and Intel UHD / Iris Xe graphics",
+        "Includes Wi-Fi 6, USB-C, HDMI, and a fingerprint sensor for easy connectivity and security.",
+        "Lightweight around 1.7 kg with a reliable battery, perfect for work, study, and travel."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 4,
+      "image": "../assets/Laptops/laptop4.jpg",
+      "model": "LENOVO NUEVOS",
+      "spec": [
+        "Features a 15.6″ Full HD display with slim bezels for clear and immersive viewing.",
+        "Powered by Intel Core i5/i7 processors with 8–16GB RAM for smooth multitasking.",
+        "Comes with a 512GB NVMe SSD, fast boot times, and Intel UHD / Iris Xe graphics",
+        "Includes Wi-Fi 6, USB-C, HDMI, and a fingerprint sensor for easy connectivity and security.",
+        "Lightweight around 1.7 kg with a reliable battery, perfect for work, study, and travel."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 5,
+      "image": "../assets/Laptops/laptop5.png",
+      "model": "ACER ASPIRE 3",
+      "spec": [
+        "Features a 15.6″ Full HD (1920×1080) LCD for ample screen space.",
+        "Powered by AMD Ryzen 5/7 or Intel Core i3/i5 processors with up to 16GB RAM.",
+        "Offers a 512GB SSD (or up to 1TB) along with integrated Radeon or Intel graphics.",
+        "Includes HDMI, USB-C, Wi-Fi 5 (or 6), and a full-size keyboard with a numeric pad.",
+        "Lightweight design around 1.9 kg with decent battery life for daily productivity."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 6,
+      "image": "../assets/Laptops/laptop6.png",
+      "model": "MSI MUESTRA",
+      "spec": [
+        "15.6″ Full HD display for clear and immersive visuals.",
+        "Powered by Intel/AMD processors for smooth everyday performance.",
+        "Equipped with fast SSD storage for quick boot times and app responsiveness.",
+        "Includes Wi-Fi, USB-C, HDMI, and other essential connectivity options.",
+        "Lightweight and modern design suitable for work, study, and travel."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 7,
+      "image": "../assets/Laptops/laptop7.png",
+      "model": "GALAXY QLED GB",
+      "spec": [
+        "Features a vibrant QLED Full HD display with rich colors and sharp clarity.",
+        "Powered by efficient Intel processors for smooth daily and multitasking performance.",
+        "Offers fast SSD storage for quick boot times and seamless app loading.",
+        "Includes Wi-Fi, USB-C, HDMI, and other modern connectivity options.",
+        "Sleek, lightweight design ideal for productivity, entertainment, and travel."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 8,
+      "image": "../assets/Laptops/laptop8.jpg",
+      "model": "MACBOOK PRO",
+      "spec": [
+        "14″ Liquid Retina XDR / 16″ XDR display with up to 1,000-nits sustained brightness.",
+        "Powered by Apple M-series chips (M4 / M5) offering high-performance CPU and GPU cores.",
+        "Comes with up to 128 GB unified memory and fast SSD storage (512 GB–8 TB).",
+        "Includes MagSafe 3, three Thunderbolt 4 / USB-C ports, HDMI, SDXC card slot, and Wi-Fi 6E.",
+        "Long-lasting battery life, sleek aluminum unibody design, and pro-grade build quality."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 9,
+      "image": "../assets/Laptops/laptop9.png",
+      "model": "MS SURFACE",
+      "spec": [
+        "Features a 13.5″ or 15″ PixelSense touchscreen with a vibrant 3:2 aspect ratio.",
+        "Powered by 12th Gen Intel Core i5/i7 processors for fast and efficient performance.",
+        "Offers up to 32 GB LPDDR5x RAM and fast SSD storage for smooth multitasking.",
+        "Includes USB-C / Thunderbolt 4, USB-A, Surface Connect port, and Wi-Fi 6 connectivity.",
+        "Sleek, lightweight, and premium build with all-day battery life for work or study."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 10,
+      "image": "../assets/Laptops/laptop10.png",
+      "model": "FUJITSU LB U904",
+      "spec": [
+        "14″ WQHD+ (3200×1800) IGZO touch display for ultra-crisp visuals.",
+        "Powered by 4th-gen Intel Core i5 or i7 (up to 3.3 GHz) for balanced performance.",
+        "Supports up to 10 GB DDR3L RAM and offers SSD / SSHD storage options.",
+        "Includes HDMI, 2× USB 3.0, Gigabit Ethernet, SD-card reader, and fingerprint scanner.",
+        "Weighs around 1.38 kg with a 45 Wh battery for good portability and decent battery life."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 11,
+      "image": "../assets/Laptops/laptop11.png",
+      "model": "HONOR MB",
+      "spec": [
+        "14″ Full HD (1920×1080) display with slim bezels for a clear and immersive viewing experience.",
+        "Powered by efficient Intel/AMD processors for smooth everyday performance.",
+        "Comes with up to 16 GB RAM and fast SSD storage for quick boot times and multitasking.",
+        "Offers Wi-Fi, USB-C, HDMI, and biometric security for modern and reliable connectivity.",
+        "Lightweight design with a long-lasting battery ideal for work, study, and travel."
+      ],
+      "price": "59,999 INR"
+    },
+    {
+      "id": 12,
+      "image": "../assets/Laptops/laptop12.png",
+      "model": "HAUWEI",
+      "spec": [
+        "14″ FullView IPS display with a 3:2 aspect ratio for a crisp and tall workspace.",
+        "Powered by 12th-gen Intel Core i5/i7 processors for efficient and fast performance.",
+        "Equipped with up to 16 GB LPDDR4X RAM and 512 GB NVMe SSD for smooth multitasking and storage.",
+        "Includes Wi-Fi 6, USB-C, HDMI, and a fingerprint power button for easy and secure connectivity.",
+        "Elegant metal build weighing around 1.33 kg, with long-lasting battery life ideal for portability."
+      ],
+      "price": "59,999 INR"
+    }
+  ],
+  "accessories": [
+    {
+      "id": 1,
+      "image": "../assets/Accessories/acc1.png",
+      "model": "Edge Perfume",
+      "spec": [
+        "Fresh and long-lasting.",
+        "Smooth masculine fragrance.",
+        "Perfect for daily use.",
+        "Light yet refreshing scent.",
+        "Ideal for work or outings."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 2,
+      "image": "../assets/Accessories/acc2.png",
+      "model": "Silver chain",
+      "spec": [
+        "Shiny pure silver chain.",
+        "Strong and long-lasting.",
+        "Smooth and skin-friendly.",
+        "Secure and comfy fit.",
+        "Perfect for daily ."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 3,
+      "image": "../assets/Accessories/acc3.png",
+      "model": "Coolers Black",
+      "spec": [
+        "Strong cooling air.",
+        "Black theme ",
+        "Energy-saving performance.",
+        "Quiet and steady operation.",
+        "Perfect for hot days."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 4,
+      "image": "../assets/Accessories/acc4.png",
+      "model": "Seiko Watch",
+      "spec": [
+        "Classic premium design.",
+        "Accurate Japanese movement.",
+        "Strong stainless steel build.",
+        "Comfortable daily wear.",
+        "Durable and long-lasting."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 5,
+      "image": "../assets/Accessories/acc5.png",
+      "model": "Vector Keychain",
+      "spec": [
+        "Strong and lightweight build.",
+        "Modern stylish design.",
+        "Smooth metal finish.",
+        "Durable for daily use.",
+        "Perfect for holding keys."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 6,
+      "image": "../assets/Accessories/acc6.jpeg",
+      "model": "Silver Bracelet",
+      "spec": [
+        "Stylish modern design.",
+        "Strong durable build.",
+        "Comfortable daily wear.",
+        "Skin-friendly material.",
+        "Perfect for any outfit."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 7,
+      "image": "../assets/Accessories/acc7.jpeg",
+      "model": "Leather Belt",
+      "spec": [
+        "Premium genuine leather.",
+        "Smooth comfortable fit.",
+        "Classic timeless style.",
+        "Perfect for daily wear."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 8,
+      "image": "../assets/Accessories/acc8.png",
+      "model": "Cooler Blue",
+      "spec": [
+        "Strong cooling air.",
+        "Blue tone",
+        "Energy-saving performance.",
+        "Quiet and steady operation.",
+        "Perfect for hot days."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 9,
+      "image": "../assets/Accessories/acc9.jpg",
+      "model": "Cap Red",
+      "spec": [
+        "Lightweight comfortable fit.",
+        "Dark Red Theme",
+        "Adjustable back strap.",
+        "Stylish casual design.",
+        "Perfect for sunny days."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 10,
+      "image": "../assets/Accessories/acc10.jpeg",
+      "model": "Cap Darkgreen",
+      "spec": [
+        "Lightweight comfortable fit.",
+        "Dark Green Theme",
+        "Adjustable back strap.",
+        "Stylish casual design.",
+        "Perfect for sunny days."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 11,
+      "image": "../assets/Accessories/acc11.png",
+      "model": "Laptop Bag",
+      "spec": [
+        "Strong durable material.",
+        "Soft padded protection.",
+        "Spacious organized pockets.",
+        "Comfortable carrying straps.",
+        "Perfect for work travel."
+      ],
+      "price": "400 INR"
+    },
+    {
+      "id": 12,
+      "image": "../assets/Accessories/acc12.jpg",
+      "model": "Men's Ankle Socks",
+      "spec": [
+        "Soft breathable fabric.",
+        "Comfortable all-day wear.",
+        "Stretchy snug fit.",
+        "Sweat-absorbing material.",
+        "Perfect for daily use."
+      ],
+      "price": "400 INR"
+    }
+  ],
+  "shoes": [
+    {
+      "id": 1,
+      "image": "../assets/Shoes/shoe1.jpg",
+      "model": "Formal shoe black",
+      "spec": [
+        "Premium polished finish for a sharp and professional look.",
+        "Soft cushioned comfort that keeps your feet relaxed all day.",
+        "Long-lasting durable sole designed for daily office use.",
+        "Classic elegant design that pairs well with formal outfits.",
+        "Perfect for meetings, events, and everyday office wear."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 2,
+      "image": "../assets/Shoes/shoe2.jpg",
+      "model": "Formal shoe brown",
+      "spec": [
+        "Premium polished finish for a sharp and professional look.",
+        "Soft cushioned comfort that keeps your feet relaxed all day.",
+        "Long-lasting durable sole designed for daily office use.",
+        "Classic elegant design that pairs well with formal outfits.",
+        "Perfect for meetings, events, and everyday office wear."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 3,
+      "image": "../assets/Shoes/shoe3.jpg",
+      "model": "Formal orion",
+      "spec": [
+        "Premium polished finish for a sharp and professional look.",
+        "Soft cushioned comfort that keeps your feet relaxed all day.",
+        "Long-lasting durable sole designed for daily office use.",
+        "Classic elegant design that pairs well with formal outfits.",
+        "Perfect for meetings, events, and everyday office wear."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 4,
+      "image": "../assets/Shoes/shoe4.png",
+      "model": "Oxford brown",
+      "spec": [
+        "Premium polished finish for a sharp and professional look.",
+        "Soft cushioned comfort that keeps your feet relaxed all day.",
+        "Long-lasting durable sole designed for daily office use.",
+        "Classic elegant design that pairs well with formal outfits.",
+        "Perfect for meetings, events, and everyday office wear."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 5,
+      "image": "../assets/Shoes/shoe5.jpg",
+      "model": "Casual tealorange",
+      "spec": [
+        "Soft breathable material for cool and comfortable daily wear.",
+        "Lightweight cushioned sole that supports long walks effortlessly.",
+        "Flexible design that adapts naturally to your foot movement.",
+        "Trendy casual look that suits jeans, shorts, and everyday outfits.",
+        "Perfect for outings, travel, and relaxed all-day comfort."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 6,
+      "image": "../assets/Shoes/shoe6.jpg",
+      "model": "Casual grey",
+      "spec": [
+        "Soft breathable material for cool and comfortable daily wear.",
+        "Lightweight cushioned sole that supports long walks effortlessly.",
+        "Flexible design that adapts naturally to your foot movement.",
+        "Trendy casual look that suits jeans, shorts, and everyday outfits.",
+        "Perfect for outings, travel, and relaxed all-day comfort."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 7,
+      "image": "../assets/Shoes/shoe7.jpg",
+      "model": "Nike white sneak",
+      "spec": [
+        "Clean white design for a fresh and stylish everyday look.",
+        "Soft cushioned insole that keeps your feet comfy all day.",
+        "Lightweight flexible sole for smooth and easy walking.",
+        "Breathable upper material that stays cool and comfortable.",
+        "Perfect for casual wear, travel, and modern street style."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 8,
+      "image": "../assets/Shoes/shoe8.jpg",
+      "model": "New Balance sneak",
+      "spec": [
+        "Clean white design for a fresh and stylish everyday look.",
+        "Soft cushioned insole that keeps your feet comfy all day.",
+        "Lightweight flexible sole for smooth and easy walking.",
+        "Breathable upper material that stays cool and comfortable.",
+        "Perfect for casual wear, travel, and modern street style."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 9,
+      "image": "../assets/Shoes/shoe9.jpg",
+      "model": "Casual white sneak",
+      "spec": [
+        "Clean white design for a fresh and stylish everyday look.",
+        "Soft cushioned insole that keeps your feet comfy all day.",
+        "Lightweight flexible sole for smooth and easy walking.",
+        "Breathable upper material that stays cool and comfortable.",
+        "Perfect for casual wear, travel, and modern street style."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 10,
+      "image": "../assets/Shoes/shoe10.png",
+      "model": "Sport shoe blue",
+      "spec": [
+        "Breathable mesh design for cool and active performance.",
+        "Soft cushioned sole that absorbs impact during running.",
+        "Lightweight build for fast, smooth, and flexible movement.",
+        "Durable grip outsole for stability on various surfaces.",
+        "Perfect for workouts, jogging, and everyday sporty comfort."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 11,
+      "image": "../assets/Shoes/shoe11.jpg",
+      "model": "Athletic footwear",
+      "spec": [
+        "Breathable upper material for cool and comfortable movement.",
+        "High-energy cushioning that supports intense athletic activity.",
+        "Lightweight flexible sole for smooth and responsive steps.",
+        "Strong traction grip for stability on all training surfaces.",
+        "Perfect for running, workouts, and everyday active wear."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 12,
+      "image": "../assets/Shoes/shoe12.png",
+      "model": "Sport shoe black",
+      "spec": [
+        "Breathable mesh design for cool and active performance.",
+        "Soft cushioned sole that absorbs impact during running.",
+        "Lightweight build for fast, smooth, and flexible movement.",
+        "Durable grip outsole for stability on various surfaces.",
+        "Perfect for workouts, jogging, and everyday sporty comfort."
+      ],
+      "price": "799 INR"
+    }
+  ],
+  "mensClothings": [
+    {
+      "id": 1,
+      "image": "../assets/MensClothings/clothes2.jpg",
+      "model": "Mens formal(Green)",
+      "spec": [
+        "Soft premium fabric for smooth and professional all-day comfort.",
+        "Breathable material that keeps you cool during office hours.",
+        "Tailored fit design for a clean and polished appearance.",
+        "Classic formal style that pairs perfectly with trousers and blazers.",
+        "Ideal for office wear, meetings, and formal occasions."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 2,
+      "image": "../assets/MensClothings/clothes1.png",
+      "model": "T-shirt (Green)",
+      "spec": [
+        "Soft cotton fabric for smooth and comfortable everyday wear.",
+        "Breathable material that keeps you cool throughout the day.",
+        "Stretchy relaxed fit for easy and flexible movement.",
+        "Classic black design that pairs well with any outfit.",
+        "Perfect for casual use, outings, and daily comfort."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 3,
+      "image": "../assets/MensClothings/clothes3.jpg",
+      "model": "Sweaters (Green)",
+      "spec": [
+        "Soft warm fabric for cozy and comfortable everyday wear.",
+        "Breathable material that keeps you comfortable in any weather.",
+        "Relaxed fit design for easy movement and all-day comfort.",
+        "Stylish hooded look that pairs well with casual outfits.",
+        "Perfect for travel, outings, and cool-weather layering."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 4,
+      "image": "../assets/MensClothings/clothes4.jpg",
+      "model": "Mens formal (Blue)",
+      "spec": [
+        "Soft premium fabric for smooth and professional all-day comfort.",
+        "Breathable material that keeps you cool during office hours.",
+        "Tailored fit design for a clean and polished appearance.",
+        "Classic formal style that pairs perfectly with trousers and blazers.",
+        "Ideal for office wear, meetings, and formal occasions."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 5,
+      "image": "../assets/MensClothings/clothes5.jpg",
+      "model": "T-shirt (Blue)",
+      "spec": [
+        "Soft cotton fabric for smooth and comfortable everyday wear.",
+        "Breathable material that keeps you cool throughout the day.",
+        "Stretchy relaxed fit for easy and flexible movement.",
+        "Classic black design that pairs well with any outfit.",
+        "Perfect for casual use, outings, and daily comfort."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 6,
+      "image": "../assets/MensClothings/clothes6.jpg",
+      "model": "Sweaters (Blue)",
+      "spec": [
+        "Soft warm fabric for cozy and comfortable everyday wear.",
+        "Breathable material that keeps you comfortable in any weather.",
+        "Relaxed fit design for easy movement and all-day comfort.",
+        "Stylish hooded look that pairs well with casual outfits.",
+        "Perfect for travel, outings, and cool-weather layering."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 7,
+      "image": "../assets/MensClothings/clothes7.jpg",
+      "model": "Formal (black strips)",
+      "spec": [
+        "Soft premium fabric for smooth and professional all-day comfort.",
+        "Breathable material that keeps you cool during office hours.",
+        "Tailored fit design for a clean and polished appearance.",
+        "Classic formal style that pairs perfectly with trousers and blazers.",
+        "Ideal for office wear, meetings, and formal occasions."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 8,
+      "image": "../assets/MensClothings/clothes8.png",
+      "model": "T-shirt(Black)",
+      "spec": [
+        "Soft cotton fabric for smooth and comfortable everyday wear.",
+        "Breathable material that keeps you cool throughout the day.",
+        "Stretchy relaxed fit for easy and flexible movement.",
+        "Classic black design that pairs well with any outfit.",
+        "Perfect for casual use, outings, and daily comfort."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 9,
+      "image": "../assets/MensClothings/clothes9.png",
+      "model": "Sweaters (Black)",
+      "spec": [
+        "Soft warm fabric for cozy and comfortable everyday wear.",
+        "Breathable material that keeps you comfortable in any weather.",
+        "Relaxed fit design for easy movement and all-day comfort.",
+        "Stylish hooded look that pairs well with casual outfits.",
+        "Perfect for travel, outings, and cool-weather layering."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 10,
+      "image": "../assets/MensClothings/clothes10.jpeg",
+      "model": "Formal (white strips)",
+      "spec": [
+        "Soft premium fabric for smooth and professional all-day comfort.",
+        "Breathable material that keeps you cool during office hours.",
+        "Tailored fit design for a clean and polished appearance.",
+        "Classic formal style that pairs perfectly with trousers and blazers.",
+        "Ideal for office wear, meetings, and formal occasions."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 11,
+      "image": "../assets/MensClothings/clothes11.png",
+      "model": "T-shirt (White)",
+      "spec": [
+        "Soft cotton fabric for smooth and comfortable everyday wear.",
+        "Breathable material that keeps you cool throughout the day.",
+        "Stretchy relaxed fit for easy and flexible movement.",
+        "Classic black design that pairs well with any outfit.",
+        "Perfect for casual use, outings, and daily comfort."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 12,
+      "image": "../assets/MensClothings/clothes12.png",
+      "model": "Sweaters (Black/White)",
+      "spec": [
+        "Soft warm fabric for cozy and comfortable everyday wear.",
+        "Breathable material that keeps you comfortable in any weather.",
+        "Relaxed fit design for easy movement and all-day comfort.",
+        "Stylish hooded look that pairs well with casual outfits.",
+        "Perfect for travel, outings, and cool-weather layering."
+      ],
+      "price": "799 INR"
+    }
+  ],
+  "smartGadgets": [
+    {
+      "id": 1,
+      "image": "../assets/SmartGadgets/gadgets1.png",
+      "model": "Smart watch boltt",
+      "spec": [
+        "Bright clear display for easy viewing throughout the day.",
+        "Tracks steps, heart rate, and daily fitness activities smoothly.",
+        "Lightweight comfortable design suitable for all-day wear.",
+        "Includes notifications, alarms, and smart connectivity features.",
+        "Perfect for fitness tracking, daily use, and modern lifestyle."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 2,
+      "image": "../assets/SmartGadgets/gadgets2.jpg",
+      "model": "Boat airpods 161",
+      "spec": [
+        "Clear rich sound for smooth music and calls.",
+        "Comfortable lightweight fit for all-day listening.",
+        "Quick Bluetooth pairing for hassle-free connection.",
+        "Long battery life with a compact charging case.",
+        "Perfect for travel, workouts, and daily use."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 3,
+      "image": "../assets/SmartGadgets/gadgets3.jpg",
+      "model": "Mivi airpods",
+      "spec": [
+        "Clear rich sound for smooth music and calls.",
+        "Comfortable lightweight fit for all-day listening.",
+        "Quick Bluetooth pairing for hassle-free connection.",
+        "Long battery life with a compact charging case.",
+        "Perfect for travel, workouts, and daily use."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 4,
+      "image": "../assets/SmartGadgets/gadgets4.png",
+      "model": "Smart watch sony",
+      "spec": [
+        "Bright clear display for easy viewing throughout the day.",
+        "Tracks steps, heart rate, and daily fitness activities smoothly.",
+        "Lightweight comfortable design suitable for all-day wear.",
+        "Includes notifications, alarms, and smart connectivity features.",
+        "Perfect for fitness tracking, daily use, and modern lifestyle."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 5,
+      "image": "../assets/SmartGadgets/gadgets5.png",
+      "model": "JBL speakers white",
+      "spec": [
+        "Powerful clear sound for rich music experience.",
+        "Deep punchy bass that fills any room easily.",
+        "Portable lightweight design for easy carrying.",
+        "Long battery life for nonstop music playback.",
+        "Perfect for parties, travel, and outdoor fun."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 6,
+      "image": "../assets/SmartGadgets/gadgets6.png",
+      "model": "JBL speakers black",
+      "spec": [
+        "Powerful clear sound for rich music experience.",
+        "Deep punchy bass that fills any room easily.",
+        "Portable lightweight design for easy carrying.",
+        "Long battery life for nonstop music playback.",
+        "Perfect for parties, travel, and outdoor fun."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 7,
+      "image": "../assets/SmartGadgets/gadgets7.jpg",
+      "model": "Noise headphones",
+      "spec": [
+        "Clear crisp audio for immersive listening.",
+        "Soft cushioned ear pads for all-day comfort.",
+        "Adjustable headband for a perfect fit.",
+        "Strong build quality for long-lasting use.",
+        "Ideal for music, gaming, and daily travel."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 8,
+      "image": "../assets/SmartGadgets/gadgets8.jpg",
+      "model": "Bose headphones",
+      "spec": [
+        "Clear crisp audio for immersive listening.",
+        "Soft cushioned ear pads for all-day comfort.",
+        "Adjustable headband for a perfect fit.",
+        "Strong build quality for long-lasting use.",
+        "Ideal for music, gaming, and daily travel."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 9,
+      "image": "../assets/SmartGadgets/gadgets9.jpg",
+      "model": "Anker powerbank",
+      "spec": [
+        "High-capacity battery for reliable full-day charging.",
+        "Fast charging output for quick power on the go.",
+        "Compact lightweight design that fits easily in pockets.",
+        "Durable build with multiple USB/Type-C ports.",
+        "Perfect for travel, work, and everyday backup power."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 10,
+      "image": "../assets/SmartGadgets/gadgets10.jpg",
+      "model": "Realme powerbank",
+      "spec": [
+        "High-capacity battery for reliable full-day charging.",
+        "Fast charging output for quick power on the go.",
+        "Compact lightweight design that fits easily in pockets.",
+        "Durable build with multiple USB/Type-C ports.",
+        "Perfect for travel, work, and everyday backup power."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 11,
+      "image": "../assets/SmartGadgets/gadgets11.jpg",
+      "model": "Smart table lamp",
+      "spec": [
+        "Soft adjustable lighting for a cozy room mood.",
+        "Smart touch control for easy brightness changes.",
+        "Energy-efficient LED that lasts longer and saves power.",
+        "Multiple color modes for study, relaxation, or ambience.",
+        "Perfect for bedrooms, desks, and modern home setups."
+      ],
+      "price": "799 INR"
+    },
+    {
+      "id": 12,
+      "image": "../assets/SmartGadgets/gadgets12.jpg",
+      "model": "Smart table lamp",
+      "spec": [
+        "Soft adjustable lighting for a cozy room mood.",
+        "Smart touch control for easy brightness changes.",
+        "Energy-efficient LED that lasts longer and saves power.",
+        "Multiple color modes for study, relaxation, or ambience.",
+        "Perfect for bedrooms, desks, and modern home setups."
+      ],
+      "price": "799 INR"
+    }
+  ],
+  "homeAppliances": [
+    {
+      "id": 1,
+      "image": "../assets/Appliances/appliance1.png",
+      "model": "Induction cooktop",
+      "spec": [
+        "Smooth glass-ceramic surface for easy cleaning and modern look.",
+        "Fast heating with precise control through smart touch settings.",
+        "Auto shut-off and overheat protection for safe cooking use.",
+        "Compact and sleek design ideal for small kitchens or countertops.",
+        "Energy-efficient cooking with quick heat-up and even power distribution."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 2,
+      "image": "../assets/Appliances/appliance2.png",
+      "model": "Induction cooktop",
+      "spec": [
+        "Smooth glass-ceramic surface for easy cleaning and modern look.",
+        "Fast heating with precise control through smart touch settings.",
+        "Auto shut-off and overheat protection for safe cooking use.",
+        "Compact and sleek design ideal for small kitchens or countertops.",
+        "Energy-efficient cooking with quick heat-up and even power distribution."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 3,
+      "image": "../assets/Appliances/appliance3.png",
+      "model": "Refrigerator",
+      "spec": [
+        "Spacious multi-door design for organized food storage.",
+        "Energy-efficient compressor for reliable and eco-friendly cooling.",
+        "Frost-free technology to reduce ice buildup and simplify cleaning.",
+        "Adjustable shelves and door bins for flexible storage options.",
+        "Quiet operation with fast cooling and humidity control for freshness."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 4,
+      "image": "../assets/Appliances/appliance4.png",
+      "model": "Refrigerator",
+      "spec": [
+        "Spacious multi-door design for organized food storage.",
+        "Energy-efficient compressor for reliable and eco-friendly cooling.",
+        "Frost-free technology to reduce ice buildup and simplify cleaning.",
+        "Adjustable shelves and door bins for flexible storage options.",
+        "Quiet operation with fast cooling and humidity control for freshness."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 5,
+      "image": "../assets/Appliances/appliance5.png",
+      "model": "Microwave oven",
+      "spec": [
+        "Spacious cavity with turntable for even cooking and reheating.",
+        "Multiple power levels and presets for flexible cooking options.",
+        "Compact and sleek design that fits easily on kitchen countertops.",
+        "Smart child-lock and auto shut-off for safe and worry-free use.",
+        "Easy-clean interior and durable glass door for long-lasting performance."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 6,
+      "image": "../assets/Appliances/appliance6.png",
+      "model": "Microwave oven",
+      "spec": [
+        "Spacious cavity with turntable for even cooking and reheating.",
+        "Multiple power levels and presets for flexible cooking options.",
+        "Compact and sleek design that fits easily on kitchen countertops.",
+        "Smart child-lock and auto shut-off for safe and worry-free use.",
+        "Easy-clean interior and durable glass door for long-lasting performance."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 7,
+      "image": "../assets/Appliances/appliance7.png",
+      "model": "Blender",
+      "spec": [
+        "High-speed motor for smooth blending and pureeing.",
+        "Durable stainless-steel blades for efficient chopping.",
+        "Large capacity jar for making smoothies, soups, and more.",
+        "Compact and easy-to-clean design with detachable parts.",
+        "Multiple speed settings for precise control over consistency."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 8,
+      "image": "../assets/Appliances/appliance8.png",
+      "model": "Electric kettle",
+      "spec": [
+        "Fast-boiling heating element for quick hot water.",
+        "Stainless-steel interior for safe and clean boiling.",
+        "Auto shut-off and boil-dry protection for safety.",
+        "Ergonomic handle and spout for easy pouring.",
+        "Compact and durable design, perfect for daily use."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 9,
+      "image": "../assets/Appliances/appliance9.png",
+      "model": "Water Purifier",
+      "spec": [
+        "Advanced multi-stage filtration system for clean and safe drinking water.",
+        "Removes impurities, bacteria, and heavy metals for healthier hydration.",
+        "Includes RO/UV/UF technology depending on the model for deep purification.",
+        "Smart indicators for filter change, tank level, and real-time alerts.",
+        "Sleek, wall-mountable design suitable for modern kitchens."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 10,
+      "image": "../assets/Appliances/appliance10.png",
+      "model": "Water Purifier",
+      "spec": [
+        "Advanced multi-stage filtration system for clean and safe drinking water.",
+        "Removes impurities, bacteria, and heavy metals for healthier hydration.",
+        "Includes RO/UV/UF technology depending on the model for deep purification.",
+        "Smart indicators for filter change, tank level, and real-time alerts.",
+        "Sleek, wall-mountable design suitable for modern kitchens."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 11,
+      "image": "../assets/Appliances/appliance11.jpg",
+      "model": "Waste bin",
+      "spec": [
+        "Durable and lightweight body designed for daily household use.",
+        "Comes with a smooth push-lid or pedal mechanism for hands-free operation.",
+        "Spacious inner capacity to easily hold kitchen or room waste.",
+        "Made with easy-to-clean materials to maintain hygiene effortlessly.",
+        "Simple, modern design that fits well in any home or office space."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 12,
+      "image": "../assets/Appliances/appliance12.jpg",
+      "model": "Sensor dustbin",
+      "spec": [
+        "Touch-free sensor lid that opens automatically for hygienic waste disposal.",
+        "High-sensitivity motion detection for smooth and quick lid response.",
+        "Large storage capacity suitable for kitchens, offices, and bedrooms.",
+        "Durable and easy-to-clean body with anti-odor design for freshness.",
+        "Energy-efficient operation with long battery life for daily convenience."
+      ],
+      "price": "14,999 INR"
+    }
+  ],
+  "furnitures": [
+    {
+      "id": 1,
+      "image": "../assets/Furnitures/furniture1.png",
+      "model": "Recline Sofa (1)",
+      "spec": [
+        "Single-seater recliner designed for personal comfort and relaxation.",
+        "Soft cushioned seating with ergonomic back support for long sitting hours.",
+        "Smooth manual or motorized reclining mechanism for effortless use.",
+        "Premium upholstery options like leather or fabric for a classy look.",
+        "Compact design ideal for living rooms, bedrooms, and entertainment corners."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 2,
+      "image": "../assets/Furnitures/furniture2.png",
+      "model": "Recline Sofa (2)",
+      "spec": [
+        "Two-seater recliner perfect for couples or shared seating comfort.",
+        "Plush cushions with lumbar support for a cozy and relaxed sitting experience.",
+        "Dual reclining function that allows each person to recline independently.",
+        "Durable frame and soft-touch upholstery for long-lasting comfort.",
+        "Ideal for movie nights, small living rooms, or compact home theaters."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 3,
+      "image": "../assets/Furnitures/furniture3.png",
+      "model": "Recline Sofa (3)",
+      "spec": [
+        "Spacious three-seater recliner designed for family seating comfort.",
+        "Deep cushioned seats with high back support for full-body relaxation.",
+        "Manual or motorized reclining with center storage console options.",
+        "Strong build quality with premium leather/fabric for a luxurious finish.",
+        "Perfect for home theaters, large living rooms, and entertainment spaces."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 4,
+      "image": "../assets/Furnitures/furniture4.png",
+      "model": "Round table",
+      "spec": [
+        "Stylish round table designed for compact and modern spaces.",
+        "Made with sturdy wood/metal construction for long-lasting durability.",
+        "Smooth circular tabletop ideal for dining, décor, or casual use.",
+        "Lightweight and easy to move, fitting well in living rooms or balconies.",
+        "Elegant finish that adds a clean and classy touch to any interior."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 5,
+      "image": "../assets/Furnitures/furniture5.png",
+      "model": "Round table",
+      "spec": [
+        "Stylish round table designed for compact and modern spaces.",
+        "Made with sturdy wood/metal construction for long-lasting durability.",
+        "Smooth circular tabletop ideal for dining, décor, or casual use.",
+        "Lightweight and easy to move, fitting well in living rooms or balconies.",
+        "Elegant finish that adds a clean and classy touch to any interior."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 6,
+      "image": "../assets/Furnitures/furniture6.jpg",
+      "model": "Wardrobe",
+      "spec": [
+        "Spacious wardrobe designed to neatly organize clothes and essentials.",
+        "Built with strong and durable materials for long-term everyday use.",
+        "Includes shelves, hanging space, and drawers for easy storage.",
+        "Smooth-opening doors with sturdy handles for comfortable access.",
+        "Modern design that fits perfectly into any bedroom interior."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 7,
+      "image": "../assets/Furnitures/furniture7.jpg",
+      "model": "Sliding wardrobe",
+      "spec": [
+        "Space-saving sliding doors that move smoothly without blocking room space.",
+        "Made with durable panels and strong rails for long-lasting performance.",
+        "Offers ample shelves, hangers, and compartments for organized storage.",
+        "Sleek, modern look that enhances the style of your bedroom.",
+        "Perfect for compact rooms where traditional doors take up extra space."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 8,
+      "image": "../assets/Furnitures/furniture8.jpg",
+      "model": "Wall shelves",
+      "spec": [
+        "Stylish wall shelves designed to display décor, books, and small accessories.",
+        "Made from sturdy wood/metal materials for strong support and durability.",
+        "Space-saving design that enhances room aesthetics without occupying floor area.",
+        "Easy to install with secure mounting hardware for a stable setup.",
+        "Perfect for living rooms, bedrooms, or offices to add a modern decorative touch."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 9,
+      "image": "../assets/Furnitures/furniture9.png",
+      "model": "Wall shelves",
+      "spec": [
+        "Stylish wall shelves designed to display décor, books, and small accessories.",
+        "Made from sturdy wood/metal materials for strong support and durability.",
+        "Space-saving design that enhances room aesthetics without occupying floor area.",
+        "Easy to install with secure mounting hardware for a stable setup.",
+        "Perfect for living rooms, bedrooms, or offices to add a modern decorative touch."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 10,
+      "image": "../assets/Furnitures/furniture10.png",
+      "model": "Wall shelves",
+      "spec": [
+        "Stylish wall shelves designed to display décor, books, and small accessories.",
+        "Made from sturdy wood/metal materials for strong support and durability.",
+        "Space-saving design that enhances room aesthetics without occupying floor area.",
+        "Easy to install with secure mounting hardware for a stable setup.",
+        "Perfect for living rooms, bedrooms, or offices to add a modern decorative touch."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 11,
+      "image": "../assets/Furnitures/furniture11.png",
+      "model": "Wooden chair",
+      "spec": [
+        "Classic wooden chair crafted from strong and durable solid wood.",
+        "Ergonomic backrest design for comfortable daily seating support.",
+        "Smooth polished finish that adds a natural and elegant look.",
+        "Stable structure with sturdy legs for long-lasting reliability.",
+        "Perfect for dining rooms, study areas, or office spaces."
+      ],
+      "price": "14,999 INR"
+    },
+    {
+      "id": 12,
+      "image": "../assets/Furnitures/furniture12.png",
+      "model": "Chair (cushion)",
+      "spec": [
+        "Soft cushioned chair with plush padding for enhanced sitting comfort.",
+        "Sturdy wooden/metal frame offering strong support and durability.",
+        "Upholstered seat and backrest for a cozy and stylish appearance.",
+        "Lightweight and easy to move, fitting well in any room setup.",
+        "Ideal for living rooms, study areas, or relaxation corners."
+      ],
+      "price": "14,999 INR"
+    }
+  ]
 }

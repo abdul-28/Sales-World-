@@ -24,13 +24,13 @@ function SmartGadgetsCard(props) {
 
   return (
     <div id='smartGadgetsCard'>
-      <Link to={props.id}>
+      <Link to={`${props.id}`}>
         <img src={props.image} alt="" />
       </Link>
       <h1>{props.model}</h1>
       <p>{props.price}</p>
       <div className='btn'>
-        <Link to={props.id}>
+        <Link to={`${props.id}`}>
           <button className='vd'>view details</button>
         </Link>
         <button className='atc' onClick={() => addToCart()}>Add To Cart</button>

@@ -7,9 +7,9 @@ function SmartGadgets() {
   let [gadgets, setGadgets] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3000/smartGadgets")
+    fetch("/products.json")
       .then(response => response.json())
-      .then(data => setGadgets(data))
+      .then(data => setGadgets(data.smartGadgets))
   },[])
 
   return (

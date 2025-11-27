@@ -7,9 +7,9 @@ function HomeAppliances() {
   let [appliances, setAppliances] = useState([])
 
   useEffect(() => {
-    fetch("http://localhost:3000/homeAppliances")
+    fetch("/products.json")
       .then(response => response.json())
-      .then(data => setAppliances(data))
+      .then(data => setAppliances(data.homeAppliances))
 
   }, [])
   return (

@@ -8,9 +8,9 @@ function Mobile() {
   let [mobiles, setMobiles] = useState([]);
 
   
-  fetch("http://localhost:3000/mobiles")
+  fetch("./products.json")
     .then(response => response.json())
-    .then(data => setMobiles(data))
+    .then(data => setMobiles(data.mobiles))
 
   
   return (

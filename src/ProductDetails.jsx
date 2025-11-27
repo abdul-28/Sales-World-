@@ -20,9 +20,17 @@ function ProductDetails() {
 
   useEffect(() => {
     if (!id || !category) return;
-    fetch(`http://localhost:3000/${category}/${id}`)
+    fetch('/products.json')
       .then(res => res.json())
-      .then(data => setDetails(data))
+      .then(data => {
+        const categoryData = data[category]
+        if (categoryData) {
+          const model = categoryData.find(item => item.id == id)
+          if (model) {
+            setDetails(model)
+          }
+        }
+      })
   }, [id, category])
 
   const navigate = useNavigate();

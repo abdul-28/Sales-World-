@@ -7,9 +7,9 @@ function Accessories() {
 
   let [accessories, setAccessories] = useState([])
 
-  fetch("http://localhost:3000/accessories")
+  fetch("/products.json")
     .then(response => response.json())
-    .then(data => setAccessories(data))
+    .then(data => setAccessories(data.accessories))
 
   
   return (
