@@ -1,0 +1,10 @@
+h3, h4, h5{
+
+    text-align: center;
+}
+
+#last{
+
+    min-height: 80vh ;
+    margin-top: 50px;
+}

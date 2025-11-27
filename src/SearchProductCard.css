@@ -1,0 +1,219 @@
+.search-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+.search-card:hover {
+    transform: translateY(-5px);
+}
+
+#searchBar {
+
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+#searchBar:hover {
+
+    border: 2px, solid, black;
+}
+
+.search-card img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.search-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.search-card-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.search-card button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    flex: 1;
+}
+
+.view-details-btn {
+    background-color: #333;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.view-details-btn:hover {
+    background-color: #0D9276;
+    color: black;
+}
+
+.search-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 250px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    background-color: white;
+    transition: transform 0.2s;
+}
+
+.search-card:hover {
+    transform: translateY(-5px);
+}
+
+#searchBar {
+
+    padding: 10px;
+    border-radius: 7px;
+    border: none;
+}
+
+#searchBar:hover {
+
+    border: 2px, solid, black;
+}
+
+.search-card img {
+    height: 200px;
+    width: 200px;
+    object-fit: contain;
+    margin-bottom: 15px;
+}
+
+.search-card h2 {
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+    text-align: center;
+    color: #333;
+}
+
+.search-card-actions {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 100%;
+    justify-content: center;
+}
+
+.search-card button {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: background-color 0.2s;
+    flex: 1;
+}
+
+.view-details-btn {
+    background-color: #333;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+.view-details-btn:hover {
+    background-color: #0D9276;
+    color: black;
+}
+
+.add-to-cart-btn {
+    background-color: #0D9276;
+    color: #111;
+    transition: all 0.2s linear;
+}
+
+.add-to-cart-btn:hover {
+
+    background-color: #333;
+    color: white;
+}
+
+/* Search Suggestions Styles */
+.search-container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    /* Adjust as needed */
+}
+
+.search-form {
+    width: 100%;
+}
+
+#searchBar {
+    width: 100%;
+    box-sizing: border-box;
+    /* Ensure padding doesn't affect width */
+}
+
+.suggestions-list {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-top: none;
+    border-radius: 0 0 8px 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 1000;
+    max-height: 300px;
+    overflow-y: auto;
+}
+
+.suggestion-item {
+    padding: 10px 15px;
+    cursor: pointer;
+    border-bottom: 1px solid #eee;
+    transition: background-color 0.2s;
+    text-align: left;
+}
+
+.suggestion-item:last-child {
+    border-bottom: none;
+}
+
+.suggestion-item:hover {
+    background-color: #f5f5f5;
+}
+
+.suggestion-text {
+    font-size: 14px;
+    color: #333;
+}
+
+.suggestion-category {
+    font-size: 12px;
+    color: #888;
+    margin-left: 5px;
+    font-style: italic;
+}

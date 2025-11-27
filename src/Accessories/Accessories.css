@@ -1,0 +1,63 @@
+#acc-group{
+    
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#accCard{
+
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    border: 2px solid #0D9276;
+    border-radius: 7px;
+    height: max-content;
+    width: 300px;
+    padding:10px;
+    margin: 30px 10px;
+    box-shadow: 10px 10px 10px rgb(153, 150, 150);
+}
+
+#accCard button{
+
+    background-color: #0D9276;
+    color: black;
+    font-size: 0.90rem;
+    padding: 10px;
+    border-radius:4px;
+    border:none;
+    transition: all 0.2s linear;
+}
+
+#accCard button:hover{
+
+    cursor:pointer;
+    background-color: #333;
+    color: white;
+}
+#accCard img{
+
+    height: 200px;
+    width:200px;
+    transition: all 0s linear;
+}
+
+#accCard img:hover{
+
+    transform: translateY(-10px);
+}
+
+#accCard .vd {
+
+    background-color: #333;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+#accCard .vd:hover{
+
+    background-color: #0D9276;
+    color: black;
+}

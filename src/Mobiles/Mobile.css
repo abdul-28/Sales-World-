@@ -1,0 +1,85 @@
+#mobile-group {
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#mobCard {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 30px 10px;
+    border: 2px solid #0D9276;
+    height: max-content;
+    border-radius: 7px;
+    width: 250px;
+    box-shadow: 10px 10px 10px rgb(153, 150, 150);
+}
+
+#mobCard img {
+
+    height: 150px;
+    width: 150px;
+    transition: all 0s linear;
+}
+
+#mobCard img:hover {
+
+    transform: translate(0px, -10px);
+}
+
+#mobCard button {
+
+    padding: 10px;
+    border: none;
+    font-size: 0.90rem;
+    background-color: #0D9276;
+    color: black;
+    border-radius: 4px;
+    transition: all 0.2s linear;
+    /* box-shadow: 10px 10px 10px rgb(153, 150, 150); */
+}
+
+#mobCard button:hover {
+
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+
+.btn {
+
+    display: flex;
+    gap: 30px;
+}
+
+
+#mobCard .vd {
+
+    background-color: #333;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+#mobCard .vd:hover {
+
+    background-color: #0D9276;
+    color: black;
+}
+
+@media (max-width: 480px) {
+    #mobCard {
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    .btn {
+        gap: 10px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

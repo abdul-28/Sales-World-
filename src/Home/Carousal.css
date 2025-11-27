@@ -1,0 +1,28 @@
+.carousal {
+    margin: 50px 0px;
+    width: 100%;
+    overflow-x: hidden;
+    white-space: nowrap;
+}
+
+.group {
+    display: inline-flex;
+    gap: 3em;
+    padding-right: 3em;
+    animation: scroll 13s linear infinite;
+}
+
+@keyframes scroll {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+.group img {
+
+    height: 100px;
+    width: 100px;
+}

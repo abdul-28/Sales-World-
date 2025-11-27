@@ -1,0 +1,62 @@
+#appliances-group{
+
+    display: flex;
+    justify-content:space-evenly;
+    flex-wrap: wrap;
+    /* border: 1px solid black; */
+}
+
+#appliancesCard{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #0D9276;
+    height: max-content;
+    width: 300px;
+    border-radius: 7px;
+    padding: 10px;
+    margin: 30px 10px;
+    box-shadow: 10px 10px 10px rgb(153, 150, 150);
+}
+
+#appliancesCard img{
+
+    height: 200px;
+    width: 300px;
+    transition: all 0s linear;
+}
+
+#appliancesCard img:hover{
+
+    transform: translateY(-10px);
+}
+#appliancesCard button{
+
+    background-color: #0D9276;
+    color: black;
+    padding: 10px;
+    font-size: 0.90rem;
+    border-radius: 4px;
+    border: none;
+    transition: all 0.2s linear;
+}
+
+#appliancesCard button:hover{
+
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+
+#appliancesCard .vd {
+
+    background-color: #333;
+    color: white;
+    transition: all 0.2s linear;
+}
+
+#appliancesCard .vd:hover{
+
+    background-color: #0D9276;
+    color: black;
+}

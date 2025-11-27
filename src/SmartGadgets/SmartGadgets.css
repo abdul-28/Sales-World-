@@ -1,0 +1,71 @@
+#smartGadgets-group{
+
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+
+#smartGadgetsCard{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 30px 10px;
+    border: 2px solid #0D9276;
+    border-radius: 7px;
+    height: max-content;
+    width: 300px;
+    box-shadow: 10px 10px 10px rgb(153, 150, 150);
+}
+
+#smartGadgetsCard img{
+
+    height: 180px;
+    width: 180px;
+    transition: all 0s linear;
+}
+
+#smartGadgetsCard img:hover{
+
+    transform: translate(0px,-10px);
+}
+
+#smartGadgetsCard button{
+
+    padding: 8px;
+    border: none;
+    background-color: #0D9276;
+    color: black;
+    font-size: 0.90rem;
+    border-radius: 4px;
+    transition: all 0.2s linear;    
+    /* box-shadow: 2px 2px 5px green; */
+}
+
+#smartGadgetsCard button:hover{
+
+    cursor: pointer;
+    background-color: #333;
+    color: white;
+}
+
+.btn{
+    
+    display: flex;
+    gap: 30px;
+}
+
+#smartGadgetsCard .vd {
+
+    background-color: #333;
+    color:white;
+    transition: all 0.2s linear;    
+}
+
+#smartGadgetsCard .vd:hover{
+
+    background-color: #0D9276;
+    color: black;
+}
